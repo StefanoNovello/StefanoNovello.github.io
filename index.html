@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUMAINI Education Initiative</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c8a67;
+            --secondary-color: #f8f9fa;
+            --accent-color: #ff7e33;
+            --text-color: #333;
+            --light-text: #fff;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            overflow-x: hidden;
+        }
+        
+        /* Header with background image */
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: var(--light-text);
+            position: relative;
+            animation: fadeIn 1s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: slideDown 1s ease-out;
+        }
+        
+        header p {
+            font-size: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            animation: slideUp 1s ease-out;
+        }
+        
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        /* Navigation */
+        nav {
+            background-color: var(--primary-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 1rem 0;
+        }
+        
+        nav ul li {
+            margin: 0 1.5rem;
+        }
+        
+        nav ul li a {
+            color: var(--light-text);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: var(--transition);
+            position: relative;
+        }
+        
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: var(--light-text);
+            bottom: 0;
+            left: 0;
+            transition: var(--transition);
+        }
+        
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+        
+        /* Language switcher */
+        .language-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 101;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+        }
+        
+        .language-switcher a {
+            color: var(--light-text);
+            text-decoration: none;
+            margin: 0 0.5rem;
+            font-weight: bold;
+            transition: var(--transition);
+            padding: 0.3rem 0.7rem;
+            border-radius: 15px;
+        }
+        
+        .language-switcher a.active {
+            background-color: var(--primary-color);
+        }
+        
+        .language-switcher a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        /* Main content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        
+        section {
+            margin-bottom: 4rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        h2::after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 4px;
+            background-color: var(--accent-color);
+            bottom: 0;
+            left: 0;
+        }
+        
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        ul {
+            margin-bottom: 2rem;
+            padding-left: 2rem;
+        }
+        
+        li {
+            margin-bottom: 0.8rem;
+            position: relative;
+        }
+        
+        li::before {
+            content: '•';
+            color: var(--accent-color);
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        
+        /* Donation section */
+        .donation-box {
+            background-color: var(--secondary-color);
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: var(--shadow);
+            margin-top: 2rem;
+            transition: var(--transition);
+        }
+        
+        .donation-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .donation-box h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        
+        .donation-amount {
+            font-size: 2rem;
+            color: var(--accent-color);
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+        
+        .bank-details {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 6px;
+            margin-top: 1.5rem;
+            border-left: 4px solid var(--accent-color);
+        }
+        
+        /* Gallery section */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+        
+        .gallery-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            position: relative;
+            height: 250px;
+            transition: var(--transition);
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.03);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: var(--primary-color);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 99;
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-5px);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--primary-color);
+            color: var(--light-text);
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .social-links {
+            margin: 1rem 0;
+        }
+        
+        .social-links a {
+            color: var(--light-text);
+            font-size: 1.5rem;
+            margin: 0 0.8rem;
+            transition: var(--transition);
+        }
+        
+        .social-links a:hover {
+            color: var(--accent-color);
+            transform: translateY(-3px);
+        }
+        
+        /* Language content */
+        .language-content {
+            display: none;
+        }
+        
+        .language-content.active {
+            display: block;
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            
+            header p {
+                font-size: 1.2rem;
+            }
+            
+            nav ul {
+                flex-wrap: wrap;
+            }
+            
+            nav ul li {
+                margin: 0.5rem;
+            }
+            
+            .container {
+                padding: 2rem 1rem;
+            }
+            
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <a id="lang-de" class="active">DE</a>
+        <a id="lang-it">IT</a>
+        <a id="lang-en">EN</a>
+    </div>
+    
+    <!-- German Content -->
+    <div id="content-de" class="language-content active">
+        <header>
+            <h1>TUMAINI Education Initiative</h1>
+            <p>Zukunft ermöglichen, Hoffnung schenken</p>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#about-de">Über uns</a></li>
+                <li><a href="#mission-de">Mission</a></li>
+                <li><a href="#donate-de">Spenden</a></li>
+                <li><a href="#contact-de">Kontakt</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            <section id="about-de">
+                <h2>Über TUMAINI</h2>
+                <p><strong>"Tumaini" bedeutet "Hoffnung" auf Swahili.</strong> Unsere Initiative unterstützt Kinder in ländlichen Regionen Tansanias, die aufgrund finanzieller Schwierigkeiten keinen Zugang zu Bildung haben.</p>
+                <p>Gegründet 2024 durch eine Partnerschaft zwischen Fr. Nicolaus Matungwa Gomano und Spendern der Pfarrei Markt Schwaben in München, arbeiten wir im Distrikt Missenyi in Kagera, Tansania.</p>
+                
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" alt="Kinder in Tansania">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1542816417-098367483b57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Schule in Tansania">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Bildung in Afrika">
+                    </div>
+                </div>
+            </section>
+            
+            <section id="mission-de">
+                <h2>Unsere Mission</h2>
+                <p>Wir bieten umfassende Bildungsunterstützung an:</p>
+                <ul>
+                    <li>Schulgebühren und Materialien</li>
+                    <li>Schuluniformen und Transport</li>
+                    <li>Mentorenprogramme</li>
+                    <li>Gemeindeengagement</li>
+                </ul>
+                <p>Unser Ziel ist es, nachhaltige Veränderungen im Leben dieser Kinder zu bewirken und ihnen Werkzeuge für eine bessere Zukunft an die Hand zu geben.</p>
+            </section>
+            
+            <section id="donate-de">
+                <h2>So können Sie helfen</h2>
+                <p>Ihre Spende ermöglicht Kindern in Tansania den Zugang zu Bildung und damit eine Chance auf eine bessere Zukunft.</p>
+                
+                <div class="donation-box">
+                    <h3>Ein Kind unterstützen</h3>
+                    <p>Mit einer Spende von:</p>
+                    <div class="donation-amount">300€</div>
+                    <p>können Sie die Bildungsbedürfnisse eines Kindes für ein ganzes Jahr decken.</p>
+                    
+                    <div class="bank-details">
+                        <h4>Spendenkonto</h4>
+                        <p><strong>Kath. Kirchenstiftung St. Margaret Markt Schwaben</strong></p>
+                        <p>IBAN: DE87 7509 0300 0002 1409 00</p>
+                        <p>BIC: GENODEF1M05</p>
+                        <p><strong>Verwendungszweck:</strong> TUMAINI</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="contact-de">
+                <h2>Kontakt</h2>
+                <p>Wir freuen uns über Ihre Nachricht und stehen für Fragen gerne zur Verfügung.</p>
+                <p><i class="fas fa-envelope"></i> Email: tumaini-education-initiative@gmx.de</p>
+                <p><i class="fas fa-phone"></i> Telefon: 08121-9953725</p>
+            </section>
+        </div>
+        
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 TUMAINI Education Initiative. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Italian Content -->
+    <div id="content-it" class="language-content">
+        <header>
+            <h1>TUMAINI Education Initiative</h1>
+            <p>Costruire futuri, ispirare speranza</p>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#about-it">Chi siamo</a></li>
+                <li><a href="#mission-it">Missione</a></li>
+                <li><a href="#donate-it">Donare</a></li>
+                <li><a href="#contact-it">Contatto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            <section id="about-it">
+                <h2>Su TUMAINI</h2>
+                <p><strong>"Tumaini" significa "speranza" in Swahili.</strong> La nostra iniziativa sostiene i bambini nelle zone rurali della Tanzania che non hanno accesso all'istruzione a causa di difficoltà finanziarie.</p>
+                <p>Fondata nel 2024 attraverso una partnership tra Fr. Nicolaus Matungwa Gomano e donatori della parrocchia di Markt Schwaben a Monaco, operiamo nel distretto di Missenyi a Kagera, Tanzania.</p>
+                
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" alt="Bambini in Tanzania">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1542816417-098367483b57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Scuola in Tanzania">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Educazione in Africa">
+                    </div>
+                </div>
+            </section>
+            
+            <section id="mission-it">
+                <h2>La nostra missione</h2>
+                <p>Offriamo un supporto educativo completo:</p>
+                <ul>
+                    <li>Tasse scolastiche e materiali</li>
+                    <li>Divise scolastiche e trasporto</li>
+                    <li>Programmi di tutoraggio</li>
+                    <li>Coinvolgimento della comunità</li>
+                </ul>
+                <p>Il nostro obiettivo è creare cambiamenti sostenibili nella vita di questi bambini e fornire loro gli strumenti per un futuro migliore.</p>
+            </section>
+            
+            <section id="donate-it">
+                <h2>Come puoi aiutare</h2>
+                <p>La tua donazione dà ai bambini in Tanzania accesso all'istruzione e quindi una possibilità per un futuro migliore.</p>
+                
+                <div class="donation-box">
+                    <h3>Sostieni un bambino</h3>
+                    <p>Con una donazione di:</p>
+                    <div class="donation-amount">300€</div>
+                    <p>puoi coprire i bisogni educativi di un bambino per un intero anno.</p>
+                    
+                    <div class="bank-details">
+                        <h4>Conto per donazioni</h4>
+                        <p><strong>Kath. Kirchenstiftung St. Margaret Markt Schwaben</strong></p>
+                        <p>IBAN: DE87 7509 0300 0002 1409 00</p>
+                        <p>BIC: GENODEF1M05</p>
+                        <p><strong>Causale:</strong> TUMAINI</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="contact-it">
+                <h2>Contatto</h2>
+                <p>Siamo lieti di ricevere il tuo messaggio e siamo disponibili per qualsiasi domanda.</p>
+                <p><i class="fas fa-envelope"></i> Email: tumaini-education-initiative@gmx.de</p>
+                <p><i class="fas fa-phone"></i> Telefono: 08121-9953725</p>
+            </section>
+        </div>
+        
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 TUMAINI Education Initiative. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- English Content -->
+    <div id="content-en" class="language-content">
+        <header>
+            <h1>TUMAINI Education Initiative</h1>
+            <p>Empowering Futures, Inspiring Hope</p>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#about-en">About Us</a></li>
+                <li><a href="#mission-en">Mission</a></li>
+                <li><a href="#donate-en">Donate</a></li>
+                <li><a href="#contact-en">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            <section id="about-en">
+                <h2>About TUMAINI</h2>
+                <p><strong>"Tumaini" means "hope" in Swahili.</strong> Our initiative supports children in remote rural areas of Tanzania who face financial barriers to education.</p>
+                <p>Founded in 2024 through a partnership between Fr. Nicolaus Matungwa Gomano and donors from Markt Schwaben Parish in Munich, we operate in the Missenyi District of Kagera, Tanzania.</p>
+                
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" alt="Children in Tanzania">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1542816417-098367483b57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="School in Tanzania">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Education in Africa">
+                    </div>
+                </div>
+            </section>
+            
+            <section id="mission-en">
+                <h2>Our Mission</h2>
+                <p>We provide comprehensive educational support including:</p>
+                <ul>
+                    <li>School fees and materials</li>
+                    <li>Uniforms and transportation</li>
+                    <li>Mentorship programs</li>
+                    <li>Community engagement</li>
+                </ul>
+                <p>Our goal is to create sustainable change in these children's lives and provide them with tools for a better future.</p>
+            </section>
+            
+            <section id="donate-en">
+                <h2>How You Can Help</h2>
+                <p>Your donation gives children in Tanzania access to education and thus a chance for a better future.</p>
+                
+                <div class="donation-box">
+                    <h3>Support a Child</h3>
+                    <p>With a donation of:</p>
+                    <div class="donation-amount">€300</div>
+                    <p>you can cover a child's educational needs for an entire year.</p>
+                    
+                    <div class="bank-details">
+                        <h4>Donation Account</h4>
+                        <p><strong>Kath. Kirchenstiftung St. Margaret Markt Schwaben</strong></p>
+                        <p>IBAN: DE87 7509 0300 0002 1409 00</p>
+                        <p>BIC: GENODEF1M05</p>
+                        <p><strong>Reference:</strong> TUMAINI</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="contact-en">
+                <h2>Contact Us</h2>
+                <p>We're happy to hear from you and available for any questions.</p>
+                <p><i class="fas fa-envelope"></i> Email: tumaini-education-initiative@gmx.de</p>
+                <p><i class="fas fa-phone"></i> Phone: 08121-9953725</p>
+            </section>
+        </div>
+        
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 TUMAINI Education Initiative. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Back to top button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Language switching functionality
+            const langDe = document.getElementById('lang-de');
+            const langIt = document.getElementById('lang-it');
+            const langEn = document.getElementById('lang-en');
+            
+            const contentDe = document.getElementById('content-de');
+            const contentIt = document.getElementById('content-it');
+            const contentEn = document.getElementById('content-en');
+            
+            function switchToDe() {
+                contentDe.classList.add('active');
+                contentIt.classList.remove('active');
+                contentEn.classList.remove('active');
+                
+                langDe.classList.add('active');
+                langIt.classList.remove('active');
+                langEn.classList.remove('active');
+                
+                saveLanguagePref('de');
+            }
+            
+            function switchToIt() {
+                contentDe.classList.remove('active');
+                contentIt.classList.add('active');
+                contentEn.classList.remove('active');
+                
+                langDe.classList.remove('active');
+                langIt.classList.add('active');
+                langEn.classList.remove('active');
+                
+                saveLanguagePref('it');
+            }
+            
+            function switchToEn() {
+                contentDe.classList.remove('active');
+                contentIt.classList.remove('active');
+                contentEn.classList.add('active');
+                
+                langDe.classList.remove('active');
+                langIt.classList.remove('active');
+                langEn.classList.add('active');
+                
+                saveLanguagePref('en');
+            }
+            
+            // Add event listeners
+            langDe.addEventListener('click', switchToDe);
+            langIt.addEventListener('click', switchToIt);
+            langEn.addEventListener('click', switchToEn);
+            
+            // Check for language preference in localStorage
+            const savedLang = localStorage.getItem('tumainiLang');
+            if (savedLang) {
+                if (savedLang === 'de') switchToDe();
+                if (savedLang === 'it') switchToIt();
+                if (savedLang === 'en') switchToEn();
+            }
+            
+            // Save language preference
+            function saveLanguagePref(lang) {
+                localStorage.setItem('tumainiLang', lang);
+            }
+            
+            // Scroll to top button
+            const backToTopBtn = document.getElementById('backToTop');
+            
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopBtn.classList.add('visible');
+                } else {
+                    backToTopBtn.classList.remove('visible');
+                }
+            });
+            
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            // Intersection Observer for scroll animations
+            const sections = document.querySelectorAll('section');
+            
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+            
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
