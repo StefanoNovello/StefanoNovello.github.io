@@ -79,7 +79,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: var(--shadow);
+    /* box-shadow: var(--shadow); */
 }
 
 nav ul {
@@ -87,6 +87,7 @@ nav ul {
     justify-content: center;
     list-style: none;
     padding: 1rem 0;
+    padding-left: 0;
 }
 
 nav ul li {
@@ -204,7 +205,7 @@ li {
     margin-bottom: 0.8rem;
     position: relative;
 }
-
+/*
 li::before {
     content: '•';
     color: var(--accent-color);
@@ -213,7 +214,7 @@ li::before {
     width: 1em;
     margin-left: -1em;
 }
-
+*/
 /* Donation section */
 .donation-box {
     background-color: var(--secondary-color);
