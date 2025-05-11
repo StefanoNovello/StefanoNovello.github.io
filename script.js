@@ -7,7 +7,59 @@ document.addEventListener('DOMContentLoaded', function() {
     const contentDe = document.getElementById('content-de');
     const contentIt = document.getElementById('content-it');
     const contentEn = document.getElementById('content-en');
-    
+
+    const galleryContent = [
+        {
+            src: "img/IMG-20250504-WA0027.jpg",
+            alt: {
+                de: "Kinder unterstüzt durch TUMAINI",
+                en: "Children supported by TUMAINI",
+                it: "Bambini che ricevono appoggio da TUMAINI"
+            }
+        },
+        {
+            src: "img/IMG-20250508-WA0002.jpg",
+            alt: {
+                de: "Kinder in der Schule",
+                en: "Children at school",
+                it: "Bambini a scuola"
+            }
+        },
+        {
+            src: "img/16_651ca63b.jpg",
+            alt: {
+                de: "Kinder in der Schule",
+                en: "Children at school",
+                it: "Bambini a scuola"
+            }
+        },
+    ]
+
+    function renderGallery(lang) {
+        console.log(`render gallery ${lang}`)
+        const gallery = document.getElementById('gallery-' + lang);
+        gallery.innerHTML = galleryContent.map(item => `
+          <div class="gallery-item">
+            <img src="${item.src}" alt="${item.alt[lang]}">
+          </div>
+        `).join('');
+    }
+
+    function switchTo(langCode) {
+        const content = document.getElementById('content-' + langCode);
+        const lang = document.getElementById('lang-'+ langCode);
+        const langs = [ langDe, langIt, langEn ];
+        const contents = [ contentDe, contentIt, contentEn ];
+        for (const c of contents) {
+             c.classList[c == content ? 'add' : 'remove']('active')
+        }
+        for (const l of langs) {
+            l.classList[l == lang ? 'add' : 'remove']('active')
+        }
+        renderGallery(langCode);
+        saveLanguagePref(langCode);
+    }
+    /*
     function switchToDe() {
         contentDe.classList.add('active');
         contentIt.classList.remove('active');
@@ -19,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         saveLanguagePref('de');
     }
-
+*/
     function updateScrollPadding() {
         const nav = document.querySelector('nav');
         if (nav && nav.offsetHeight) {
@@ -39,42 +91,17 @@ document.addEventListener('DOMContentLoaded', function() {
         updateScrollPadding();
     });
     window.addEventListener('resize', updateScrollPadding);
+
     
-    function switchToIt() {
-        contentDe.classList.remove('active');
-        contentIt.classList.add('active');
-        contentEn.classList.remove('active');
-        
-        langDe.classList.remove('active');
-        langIt.classList.add('active');
-        langEn.classList.remove('active');
-        
-        saveLanguagePref('it');
-    }
-    
-    function switchToEn() {
-        contentDe.classList.remove('active');
-        contentIt.classList.remove('active');
-        contentEn.classList.add('active');
-        
-        langDe.classList.remove('active');
-        langIt.classList.remove('active');
-        langEn.classList.add('active');
-        
-        saveLanguagePref('en');
-    }
-    
-    // Add event listeners
-    langDe.addEventListener('click', switchToDe);
-    langIt.addEventListener('click', switchToIt);
-    langEn.addEventListener('click', switchToEn);
+    // Add event listener
+    langDe.addEventListener('click', () => { switchTo('de'); });
+    langIt.addEventListener('click', () => { switchTo('it'); });
+    langEn.addEventListener('click', () => { switchTo('en'); });
     
     // Check for language preference in localStorage
     const savedLang = localStorage.getItem('tumainiLang');
     if (savedLang) {
-        if (savedLang === 'de') switchToDe();
-        if (savedLang === 'it') switchToIt();
-        if (savedLang === 'en') switchToEn();
+        switchTo(savedLang);
     }
     
     // Save language preference
