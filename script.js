@@ -24,6 +24,25 @@
             }
         },
     ];
+
+function detectUserLanguage(supportedLanguages, defaultLanguage = 'de') {
+  const userLanguages = navigator.languages || [navigator.language || defaultLanguage];
+
+  for (const lang of userLanguages) {
+    const baseLang = lang.toLowerCase().split('-')[0]; // normalize, e.g., 'en-US' → 'en'
+    if (supportedLanguages.includes(baseLang)) {
+      return baseLang;
+    }
+  }
+
+  return defaultLanguage;
+}
+
+// Example usage:
+const supportedLanguages = ['en', 'it', 'de'];
+
+
+// You can now redirect or load the page in that language
     
 document.addEventListener('DOMContentLoaded', function() {
     // Language switching functionality
@@ -92,6 +111,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const savedLang = localStorage.getItem('tumainiLang');
     if (savedLang) {
         switchTo(savedLang);
+    } else {
+        const userLang = detectUserLanguage(supportedLanguages);
+        console.log(`Detected user language: ${userLang}`);
+        switchTo(userLang);
     }
     
     // Save language preference
