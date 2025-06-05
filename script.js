@@ -1,13 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Language switching functionality
-    const langDe = document.getElementById('lang-de');
-    const langIt = document.getElementById('lang-it');
-    const langEn = document.getElementById('lang-en');
-    
-    const contentDe = document.getElementById('content-de');
-    const contentIt = document.getElementById('content-it');
-    const contentEn = document.getElementById('content-en');
-
     const galleryContent = [
         {
             src: "img/IMG-20250504-WA0027.jpg",
@@ -33,7 +23,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 it: "Bambini a scuola"
             }
         },
-    ]
+    ];
+    
+document.addEventListener('DOMContentLoaded', function() {
+    // Language switching functionality
+    const langDe = document.getElementById('lang-de');
+    const langIt = document.getElementById('lang-it');
+    const langEn = document.getElementById('lang-en');
+    
+    const contentDe = document.getElementById('content-de');
+    const contentIt = document.getElementById('content-it');
+    const contentEn = document.getElementById('content-en');
+
+
 
     function renderGallery(lang) {
         console.log(`render gallery ${lang}`)
@@ -59,19 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
         renderGallery(langCode);
         saveLanguagePref(langCode);
     }
-    /*
-    function switchToDe() {
-        contentDe.classList.add('active');
-        contentIt.classList.remove('active');
-        contentEn.classList.remove('active');
-        
-        langDe.classList.add('active');
-        langIt.classList.remove('active');
-        langEn.classList.remove('active');
-        
-        saveLanguagePref('de');
-    }
-*/
+
     function updateScrollPadding() {
         const nav = document.querySelector('nav');
         if (nav && nav.offsetHeight) {
