@@ -1,3 +1,6 @@
+---
+layout: null  # Prevents wrapping in a layout
+---
 ## About Missenyi District
 
 Missenyi District, located in the northwestern part of Tanzania, is one of the country's newer administrative divisions, with its capital at Bunazi. It belongs to the Kagera Region, which borders Uganda, Rwanda, and Lake Victoria, with Bukoba as its regional capital. The district lies approximately 60 kilometres from Bukoba town and remains largely rural, with an economy primarily driven by banana and coffee farming.

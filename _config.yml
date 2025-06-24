@@ -1,0 +1,4 @@
+collections:
+  modals:
+    output: true
+    permalink: /modals/:name.html

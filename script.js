@@ -162,25 +162,20 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
 function openModal(contentId, lang) {
-  const modal = document.getElementById('infoModal');
-  const contentDiv = document.getElementById('modalTextContent');
-  console.log('Open Modal: ', contentId,' Lang: ',lang )
-  // Load the appropriate content based on language
-  fetch(`/_includes/${contentId}_${lang}.md`)
+  const baseUrl = window.location.origin;
+  fetch(`${baseUrl}/modals/${contentId}-${lang}.html`)
     .then(response => response.text())
-    .then(text => {
-      const html = marked.parse(text); // If using marked.js
-      contentDiv.innerHTML = html;
-      modal.style.display = "block";
+    .then(html => {
+      document.getElementById('modalTextContent').innerHTML = html;
+      document.getElementById('infoModal').style.display = "block";
     })
     .catch(err => {
-      console.error('Error loading modal content:', err);
-      contentDiv.innerHTML = "<p>Content could not be loaded.</p>";
-      modal.style.display = "block";
+      console.error('Error loading modal:', err);
+      // Fallback content here
     });
 }
-
 function closeModal() {
   document.getElementById('infoModal').style.display = "none";
 }

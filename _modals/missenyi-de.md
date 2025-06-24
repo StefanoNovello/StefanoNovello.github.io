@@ -1,3 +1,6 @@
+---
+layout: null  # Prevents wrapping in a layout
+---
 ## Über den Distrikt Missenyi
 
 Der Distrikt Missenyi, im Nordwesten Tansanias gelegen, ist eine der neueren Verwaltungseinheiten des Landes mit der Hauptstadt Bunazi. Er gehört zur Region Kagera, die an Uganda, Ruanda und den Viktoriasee grenzt, mit Bukoba als regionaler Hauptstadt. Der Distrikt liegt etwa 60 Kilometer von der Stadt Bukoba entfernt und ist überwiegend ländlich geprägt, wobei die Wirtschaft hauptsächlich vom Bananen- und Kaffeeanbau abhängt.

@@ -1,3 +1,6 @@
+---
+layout: null  # Prevents wrapping in a layout
+---
 
 ## Financial Report March 2025  
 Tumaini Education Initiative

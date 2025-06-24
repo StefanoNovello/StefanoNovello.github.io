@@ -1,3 +1,6 @@
+---
+layout: null  # Prevents wrapping in a layout
+---
 ## Informazioni sul Distretto di Missenyi
 
 Il distretto di Missenyi, situato nella parte nord-occidentale della Tanzania, è una delle più recenti divisioni amministrative del paese, con capoluogo a Bunazi. Appartiene alla regione di Kagera, che confina con Uganda, Ruanda e il Lago Vittoria, con Bukoba come capoluogo regionale. Il distretto si trova a circa 60 chilometri dalla città di Bukoba e rimane prevalentemente rurale, con un'economia basata principalmente sulla coltivazione di banane e caffè.
