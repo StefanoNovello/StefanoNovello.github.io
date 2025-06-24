@@ -11,6 +11,8 @@
     <link rel="shortcut icon" href="/favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
     <link rel="manifest" href="/favicon/site.webmanifest" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <!-- Language Switcher -->
@@ -40,8 +42,11 @@
         <div class="container">
             <section id="about-de">
                 <h2>Über TUMAINI</h2>
-                <p><strong>"Tumaini" bedeutet "Hoffnung" auf Swahili.</strong> Unsere Initiative unterstützt Kinder in ländlichen Regionen Tansanias, die aufgrund finanzieller Schwierigkeiten keinen Zugang zu Bildung haben.</p>
-                <p>Gegründet 2024 durch eine Partnerschaft zwischen Fr. Nicolaus Matungwa Gomano und Spendern der Pfarrei Markt Schwaben in München, arbeiten wir im Distrikt Missenyi in Kagera, Tansania.</p>
+                <p><strong>"Tumaini" bedeutet "Hoffnung" auf Swahili.</strong> Unsere Initiative unterstützt Kinder in ländlichen
+                    Regionen Tansanias, die aufgrund finanzieller Schwierigkeiten keinen Zugang zu Bildung haben.</p>
+                <p>Gegründet 2024 durch eine Partnerschaft zwischen Fr. Nicolaus Matungwa Gomano und Spendern der
+                    Pfarrei Markt Schwaben in München, arbeiten wir im
+                    <button onclick="openModal('missenyi','de')" class="modal-link">Distrikt Missenyi</button> in Kagera, Tansania.</p>
                 
                 <div class="gallery" id="gallery-de">
                 </div>
@@ -75,6 +80,9 @@
                         <p>IBAN: DE87 7509 0300 0002 1409 00</p>
                         <p>BIC: GENODEF1M05</p>
                         <p><strong>Verwendungszweck:</strong> TUMAINI</p>
+                        <p>Die <a href=https://www.erzbistum-muenchen.de/pfarrei/st-margaret-markt-schwaben/cont/56634>Pfarrei St. Margaret</a>
+                            <a href=mailto:st-margaret.markt-schwaben@ebmuc.de><i class="fas fa-envelope"></i></a>
+                            stellt ihnen auf Anfrage eine Quittung aus.</p>
                     </div>
                     <p><strong>Fernpatenschaft:</strong> Werden Sie ein Hoffnungsträger für die Zukunft eines Kindes durch
                      Bildungsunterstützung aus der Ferne. Ihre Spende öffnet Türen zu neuen Möglichkeiten—gestalten Sie heute
@@ -89,7 +97,9 @@
                     Schwierigkeiten ihrer Familien nicht zur Schule gehen konnten. Jedes Kind erhielt Schulmaterial, Bücher und Kleidung,
                     und die Schulgebühren wurden bis Juni 2025 übernommen. Die Kinder besuchen nun verschiedene Schulen in der Region.</p>
                 <p>Wir haben 1.000 € an Spenden gesammelt, wovon 89% direkt den Kindern zugutekamen. Der Rest wurde für Ausgaben wie
-                    Transport und Bankgebühren verwendet.</p>
+                    Transport und Bankgebühren verwendet.
+                     <button onclick="openModal('financial_2025_3','en')" class="modal-link">Bericht auf Englisch</button></p>
+                </p>
                 <p>Inzwischen wurden weitere bedürftige Kinder identifiziert, und wir sammeln weitere Spenden, um die derzeitigen 
                     Kinder weiter zu unterstützen und das Programm auf weitere auszuweiten.</p>
             </section>
@@ -131,7 +141,8 @@
             <section id="about-it">
                 <h2>Su TUMAINI</h2>
                 <p><strong>"Tumaini" significa "speranza" in Swahili.</strong> La nostra iniziativa sostiene i bambini nelle zone rurali della Tanzania che non hanno accesso all'istruzione a causa di difficoltà finanziarie.</p>
-                <p>Fondata nel 2024 attraverso una partnership tra Fr. Nicolaus Matungwa Gomano e donatori della parrocchia di Markt Schwaben a Monaco, operiamo nel distretto di Missenyi a Kagera, Tanzania.</p>
+                <p>Fondata nel 2024 attraverso una partnership tra Fr. Nicolaus Matungwa Gomano e donatori della parrocchia di
+                Markt Schwaben a Monaco, operiamo nel  <button onclick="openModal('missenyi','it')" class="modal-link">distretto di Missenyi</button> a Kagera, Tanzania.</p>
                 
                 <div class="gallery" id="gallery-it"></div>
             </section>
@@ -179,7 +190,8 @@
                     ha ricevuto materiale scolastico, libri e vestiti, e le tasse scolastiche sono state pagate fino a giugno 2025.
                     I bambini ora frequentano varie scuole della zona.</p>
                 <p>Abbiamo raccolto 1.000 € in donazioni, di cui l'89% è stato speso direttamente per i bambini, mentre il resto
-                    è stato utilizzato per spese come trasporti e commissioni bancarie.</p>
+                    è stato utilizzato per spese come trasporti e commissioni bancarie.
+                    <button onclick="openModal('financial_2025_3','en')" class="modal-link">Rapporto in inglese</button></p>
                 <p>Nel frattempo, sono stati identificati altri bambini bisognosi, e stiamo raccogliendo ulteriori donazioni per
                     continuare ad aiutare quelli attuali ed espandere il programma ad altri.</p>
             </section>            
@@ -220,7 +232,8 @@
             <section id="about-en">
                 <h2>About TUMAINI</h2>
                 <p><strong>"Tumaini" means "hope" in Swahili.</strong> Our initiative supports children in remote rural areas of Tanzania who face financial barriers to education.</p>
-                <p>Founded in 2024 through a partnership between Fr. Nicolaus Matungwa Gomano and donors from Markt Schwaben Parish in Munich, we operate in the Missenyi District of Kagera, Tanzania.</p>
+                <p>Founded in 2024 through a partnership between Fr. Nicolaus Matungwa Gomano and donors from Markt Schwaben Parish in Munich,
+                    we operate in the  <button onclick="openModal('missenyi','en')" class="modal-link">Missenyi District</button> of Kagera, Tanzania.</p>
                 
                 <div class="gallery" id="gallery-en"></div>
             </section>
@@ -269,7 +282,7 @@
                     and clothes as well as having their school fees payed up to June 2025. The children are now going to
                     various schools in the area.</p>
                 <p>We gathered 1000€ in donations of which 89% were spent directly for the children, the rest was used for
-                    expenses including transport and banking fees.</p>
+                    expenses including transport and banking fees.  <button onclick="openModal('financial_2025_3','en')" class="modal-link">See Report</button></p>
                 <p>In the meantime more children have been identifed, and we are in the process of collecting more donations
                     to continue helping the current children and to expand the program to others.</p>
             </section>             
@@ -293,7 +306,13 @@
     <div class="back-to-top" id="backToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-    
-    <script src="script.js"></script>
+<!-- Info Modal -->
+<div id="infoModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <div id="modalTextContent"></div>
+  </div>
+</div>
+
 </body>
 </html>

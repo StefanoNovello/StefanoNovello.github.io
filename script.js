@@ -161,3 +161,34 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(section);
     });
 });
+
+function openModal(contentId, lang) {
+  const modal = document.getElementById('infoModal');
+  const contentDiv = document.getElementById('modalTextContent');
+  console.log('Open Modal: ', contentId,' Lang: ',lang )
+  // Load the appropriate content based on language
+  fetch(`/_includes/${contentId}_${lang}.md`)
+    .then(response => response.text())
+    .then(text => {
+      const html = marked.parse(text); // If using marked.js
+      contentDiv.innerHTML = html;
+      modal.style.display = "block";
+    })
+    .catch(err => {
+      console.error('Error loading modal content:', err);
+      contentDiv.innerHTML = "<p>Content could not be loaded.</p>";
+      modal.style.display = "block";
+    });
+}
+
+function closeModal() {
+  document.getElementById('infoModal').style.display = "none";
+}
+
+// Close modal when clicking outside content
+window.onclick = function(event) {
+  const modal = document.getElementById('infoModal');
+  if (event.target == modal) {
+    closeModal();
+  }
+}
