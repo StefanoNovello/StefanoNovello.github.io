@@ -235,12 +235,7 @@ li::before {
     font-size: 1.8rem;
 }
 
-.donation-amount {
-    font-size: 2rem;
-    color: var(--accent-color);
-    font-weight: bold;
-    margin: 1rem 0;
-}
+
 
 .bank-details {
     background-color: white;
