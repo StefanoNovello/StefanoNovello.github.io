@@ -1,328 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TUMAINI Education Initiative</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
-    <script src="script.js?v=1"></script>
+    <script>
+        // Detect user's preferred language
+        function detectLanguage() {
+            const langs = ['de', 'it', 'en'];
+            const defaultLang = 'de';
+            
+            // Check localStorage first
+            const savedLang = localStorage.getItem('tumainiLang');
+            if (savedLang && langs.includes(savedLang)) {
+                return savedLang;
+            }
+
+            // Check browser language
+            const browserLang = navigator.language.split('-')[0];
+            if (langs.includes(browserLang)) {
+                return browserLang;
+            }
+
+            return defaultLang;
+        }
+
+        // Redirect to appropriate language version
+        window.location.replace('/' + detectLanguage() + '/');
+    </script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #2c8a67;
+            color: white;
+        }
+        .loading {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <!-- Language Switcher -->
-    <div class="language-switcher">
-        <a id="lang-de" class="active">DE</a>
-        <a id="lang-it">IT</a>
-        <a id="lang-en">EN</a>
+    <div class="loading">
+        <h1>TUMAINI Education Initiative</h1>
+        <p>Loading...</p>
     </div>
-    
-    <!-- German Content -->
-    <div id="content-de" class="language-content active">
-        <header>
-            <h1>TUMAINI Education Initiative</h1>
-            <p>Zukunft ermöglichen, Hoffnung schenken</p>
-        </header>
-        
-        <nav>
-            <ul>
-                <li><a href="#about-de">Über uns</a></li>
-                <li><a href="#mission-de">Mission</a></li>
-                <li><a href="#donate-de">Spenden</a></li>
-                <li><a href="#status-de">Status</a></li>
-                <li><a href="#contact-de">Kontakt</a></li>
-            </ul>
-        </nav>
-        
-        <div class="container">
-            <section id="about-de">
-                <h2>Über TUMAINI</h2>
-                <p><strong>"Tumaini" bedeutet "Hoffnung" auf Swahili.</strong> Unsere Initiative unterstützt Kinder in ländlichen
-                    Regionen Tansanias, die aufgrund finanzieller Schwierigkeiten keinen Zugang zu Bildung haben.</p>
-                <p>Gegründet 2024 durch eine Partnerschaft zwischen Fr. Nicolaus Matungwa Gomano und Spendern der
-                    Pfarrei Markt Schwaben in München, arbeiten wir im
-                    <button onclick="openModal('missenyi','de')" class="modal-link">Distrikt Missenyi</button> in Kagera, Tansania.</p>
-                
-                <div class="gallery" id="gallery-de">
-                </div>
-            </section>
-            
-            <section id="mission-de">
-                <h2>Unsere Mission</h2>
-                <p>Wir bieten umfassende Bildungsunterstützung an:</p>
-                <ul>
-                    <li>Schulgebühren und Materialien</li>
-                    <li>Schuluniformen und Transport</li>
-                    <li>Mentorenprogramme</li>
-                    <li>Gemeindeengagement</li>
-                </ul>
-                <p>Unser Ziel ist es, nachhaltige Veränderungen im Leben dieser Kinder zu bewirken und ihnen Werkzeuge für eine bessere Zukunft an die Hand zu geben.</p>
-            </section>
-            
-<section id="donate-de">
-    <h2>So können Sie helfen</h2>
-    <p>Ihre Spende ermöglicht Kindern in Tansania den Zugang zu Bildung und damit eine Chance auf eine bessere Zukunft.</p>
-    
-    <div class="donation-box">
-        <h3>Ein Kind unterstützen</h3>
-        <p><strong>Jede Spende zählt - ob groß oder klein!</strong>
-        Jeder Beitrag unterstüzt direkt die Kinder in Tansania. Schon 300€, weniger als 1€ pro Tag,
-        decken die Bildungskosten eines Kindes für ein Jahr.</p>
-        
-        <div class="bank-details">
-            <h4>Spendenkonto</h4>
-            <p><strong>Kath. Kirchenstiftung St. Margaret Markt Schwaben</strong></p>
-            <p>IBAN: DE87 7509 0300 0002 1409 00</p>
-            <p>BIC: GENODEF1M05</p>
-            <p><strong>Verwendungszweck:</strong> TUMAINI</p>
-            <p>Die <a href="https://www.erzbistum-muenchen.de/pfarrei/st-margaret-markt-schwaben/cont/56634">Pfarrei St. Margaret</a>
-                <a href="mailto:st-margaret.markt-schwaben@ebmuc.de"><i class="fas fa-envelope"></i></a>
-                stellt Ihnen auf Anfrage eine Quittung aus.</p>
-        </div>
-        <p>Sie möchten <strong>nachhaltig helfen</strong> und Teil der Tumaini Education Initiative werden? Dann werden
-        Sie Pate oder Patin! Sie entscheiden, wie lange und mit welchem Beitrag Sie das Projekt unterstützen.
-        Eine Patenschaft für ein bestimmtes Kind ist auch möglich.
-         <a href="#contact-de">Sprechen</a>  Sie uns einfach an.
-        Wir freuen uns schon darauf, Sie in unserem Kreis der Unterstützer willkommen zu heißen.
-        </p>
-    </div>
-</section>
-            <section id="status-de">
-                <h2>Status</h2>
-                <p>März 2025</p>
-                <p>Wir haben unsere erste Mittelübertragung abgeschlossen und konnten 6 Kindern helfen, die aufgrund finanzieller
-                    Schwierigkeiten ihrer Familien nicht zur Schule gehen konnten. Jedes Kind erhielt Schulmaterial, Bücher und Kleidung,
-                    und die Schulgebühren wurden bis Juni 2025 übernommen. Die Kinder besuchen nun verschiedene Schulen in der Region.</p>
-                <p>Wir haben 1.000 € an Spenden gesammelt, wovon 89% direkt den Kindern zugutekamen. Der Rest wurde für Ausgaben wie
-                    Transport und Bankgebühren verwendet.
-                     <button onclick="openModal('financial-2025-3','en')" class="modal-link">Bericht auf Englisch</button></p>
-                </p>
-                <p>Inzwischen wurden weitere bedürftige Kinder identifiziert, und wir sammeln weitere Spenden, um die derzeitigen 
-                    Kinder weiter zu unterstützen und das Programm auf weitere auszuweiten.</p>
-            </section>
-            
-            <section id="contact-de">
-                <h2>Kontakt</h2>
-                <p>Wir freuen uns über Ihre Nachricht und stehen für Fragen gerne zur Verfügung.</p>
-                <p><i class="fas fa-envelope"></i> tumaini-education-initiative@gmx.de</p>
-                <p><i class="fas fa-phone"></i> +49 08121-9953725</p>
-            </section>
-        </div>
-        
-        <footer>
-            <div class="footer-content">
-                <p>&copy; 2025 TUMAINI Education Initiative. All rights reserved.</p>
-                <a href="impressum-de.html">Impressum</a>
-            </div>
-        </footer>
-    </div>
-    
-    <!-- Italian Content -->
-    <div id="content-it" class="language-content">
-        <header>
-            <h1>TUMAINI Education Initiative</h1>
-            <p>Costruire futuri, ispirare speranza</p>
-        </header>
-        
-        <nav>
-            <ul>
-                <li><a href="#about-it">Chi siamo</a></li>
-                <li><a href="#mission-it">Missione</a></li>
-                <li><a href="#donate-it">Donare</a></li>
-                <li><a href="#status-it">Status</a></li>
-                <li><a href="#contact-it">Contatto</a></li>
-            </ul>
-        </nav>
-        
-        <div class="container">
-            <section id="about-it">
-                <h2>Su TUMAINI</h2>
-                <p><strong>"Tumaini" significa "speranza" in Swahili.</strong> La nostra iniziativa sostiene i bambini nelle zone rurali della Tanzania che non hanno accesso all'istruzione a causa di difficoltà finanziarie.</p>
-                <p>Fondata nel 2024 attraverso una partnership tra Fr. Nicolaus Matungwa Gomano e donatori della parrocchia di
-                Markt Schwaben a Monaco, operiamo nel  <button onclick="openModal('missenyi','it')" class="modal-link">distretto di Missenyi</button> a Kagera, Tanzania.</p>
-                
-                <div class="gallery" id="gallery-it"></div>
-            </section>
-            
-            <section id="mission-it">
-                <h2>La nostra missione</h2>
-                <p>Offriamo un supporto educativo completo:</p>
-                <ul>
-                    <li>Tasse scolastiche e materiali</li>
-                    <li>Divise scolastiche e trasporto</li>
-                    <li>Programmi di tutoraggio</li>
-                    <li>Coinvolgimento della comunità</li>
-                </ul>
-                <p>Il nostro obiettivo è creare cambiamenti sostenibili nella vita di questi bambini e fornire loro gli strumenti per un futuro migliore.</p>
-            </section>
-            
-            <section id="donate-it">
-                <h2>Come puoi aiutare</h2>
-                <p>La tua donazione offre ai bambini in Tanzania l'accesso all'istruzione e la possibilità di un futuro migliore.</p>
-                
-                <div class="donation-box">
-                    <h3>Sostieni un bambino</h3>
-                    <p><strong>Ogni donazione conta, grande o piccola che sia!</strong>
-                    Ogni contributo sostiene direttamente i bambini in Tanzania. Con soli 300€, meno di 1€ al giorno,
-                    puoi coprire i costi dell'istruzione di un bambino per un anno.</p>
-                    
-                    <div class="bank-details">
-                        <h4>Conto per donazioni</h4>
-                        <p><strong>Kath. Kirchenstiftung St. Margaret Markt Schwaben</strong></p>
-                        <p>IBAN: DE87 7509 0300 0002 1409 00</p>
-                        <p>BIC: GENODEF1M05</p>
-                        <p><strong>Causale:</strong> TUMAINI</p>
-                        <p>La <a href="https://www.erzbistum-muenchen.de/pfarrei/st-margaret-markt-schwaben/cont/56634">parrocchia di St. Margaret</a>
-                            <a href="mailto:st-margaret.markt-schwaben@ebmuc.de"><i class="fas fa-envelope"></i></a>
-                            fornirà una ricevuta su richiesta.</p>
-                    </div>
-                    <p>Vuoi <strong>aiutare in modo duraturo</strong> e far parte della Tumaini Education Initiative? 
-                    Diventa un padrino o madrina! Decidi tu per quanto tempo e con quale contributo sostenere il progetto.
-                    È possibile anche adottare a distanza un bambino specifico.
-                    <a href="#contact-it">Contattaci</a> per iniziare.
-                    Non vediamo l'ora di accoglierti nella nostra cerchia di sostenitori.
-                    </p>
-                </div>
-            </section>
-            <section id="status-it">
-                <h2>Status</h2>
-                <p>Marzo 2025</p>
-                <p>Abbiamo completato il nostro primo trasferimento di fondi e siamo riusciti a identificare e aiutare 6 bambini
-                    che non potevano frequentare la scuola a causa delle difficoltà economiche delle loro famiglie. Ogni bambino
-                    ha ricevuto materiale scolastico, libri e vestiti, e le tasse scolastiche sono state pagate fino a giugno 2025.
-                    I bambini ora frequentano varie scuole della zona.</p>
-                <p>Abbiamo raccolto 1.000 € in donazioni, di cui l'89% è stato speso direttamente per i bambini, mentre il resto
-                    è stato utilizzato per spese come trasporti e commissioni bancarie.
-                    <button onclick="openModal('financial-2025-3','en')" class="modal-link">Rapporto in inglese</button></p>
-                <p>Nel frattempo, sono stati identificati altri bambini bisognosi, e stiamo raccogliendo ulteriori donazioni per
-                    continuare ad aiutare quelli attuali ed espandere il programma ad altri.</p>
-            </section>            
-            <section id="contact-it">
-                <h2>Contatto</h2>
-                <p>Siamo lieti di ricevere il tuo messaggio e siamo disponibili per qualsiasi domanda.</p>
-                <p><i class="fas fa-envelope"></i> tumaini-education-initiative@gmx.de</p>
-                <p><i class="fas fa-phone"></i> +49 08121-9953725</p>
-            </section>
-        </div>
-        
-        <footer>
-            <div class="footer-content">
-                <p>&copy; 2025 TUMAINI Education Initiative. All rights reserved.</p>
-                <a href="impressum-it.html">Note Legali</a>
-            </div>
-        </footer>
-    </div>
-    
-    <!-- English Content -->
-    <div id="content-en" class="language-content">
-        <header>
-            <h1>TUMAINI Education Initiative</h1>
-            <p>Empowering Futures, Inspiring Hope</p>
-        </header>
-        
-        <nav>
-            <ul>
-                <li><a href="#about-en">About Us</a></li>
-                <li><a href="#mission-en">Mission</a></li>
-                <li><a href="#donate-en">Donate</a></li>
-                <li><a href="#status-en">Status</a></li>
-                <li><a href="#contact-en">Contact</a></li>
-            </ul>
-        </nav>
-        
-        <div class="container">
-            <section id="about-en">
-                <h2>About TUMAINI</h2>
-                <p><strong>"Tumaini" means "hope" in Swahili.</strong> Our initiative supports children in remote rural areas of Tanzania who face financial barriers to education.</p>
-                <p>Founded in 2024 through a partnership between Fr. Nicolaus Matungwa Gomano and donors from Markt Schwaben Parish in Munich,
-                    we operate in the  <button onclick="openModal('missenyi','en')" class="modal-link">Missenyi District</button> of Kagera, Tanzania.</p>
-                
-                <div class="gallery" id="gallery-en"></div>
-            </section>
-            
-            <section id="mission-en">
-                <h2>Our Mission</h2>
-                <p>We provide comprehensive educational support including:</p>
-                <ul>
-                    <li>School fees and materials</li>
-                    <li>Uniforms and transportation</li>
-                    <li>Mentorship programs</li>
-                    <li>Community engagement</li>
-                </ul>
-                <p>Our goal is to create sustainable change in these children's lives and provide them with tools for a better future.</p>
-            </section>
-            
-            <section id="donate-en">
-                <h2>How You Can Help</h2>
-                <p>Your donation gives children in Tanzania access to education and a chance for a better future.</p>
-                
-                <div class="donation-box">
-                    <h3>Support a Child</h3>
-                    <p><strong>Every donation counts - big or small!</strong>
-                    Every contribution directly supports children in Tanzania. Just €300, less than €1 per day,
-                    covers a child's education costs for one year.</p>
-                    
-                    <div class="bank-details">
-                        <h4>Donation Account</h4>
-                        <p><strong>Kath. Kirchenstiftung St. Margaret Markt Schwaben</strong></p>
-                        <p>IBAN: DE87 7509 0300 0002 1409 00</p>
-                        <p>BIC: GENODEF1M05</p>
-                        <p><strong>Purpose:</strong> TUMAINI</p>
-                        <p>The <a href="https://www.erzbistum-muenchen.de/pfarrei/st-margaret-markt-schwaben/cont/56634">Parish of St. Margaret</a>
-                            <a href="mailto:st-margaret.markt-schwaben@ebmuc.de"><i class="fas fa-envelope"></i></a>
-                            will provide you with a receipt upon request.</p>
-                    </div>
-                    <p>Would you like to <strong>make a lasting impact</strong> and become part of the Tumaini Education Initiative? 
-                    Consider becoming a sponsor! You decide how long and how much you'd like to contribute. 
-                    Sponsoring a specific child is also possible.
-                    <a href="#contact-en">Contact</a> us to get started.
-                    We look forward to welcoming you to our circle of supporters.
-                    </p>
-                </div>
-            </section>
-            <section id="status-en">
-                <h2>Status</h2>
-                <p>March 2025</p>
-                <p>We have completed our first transfer of funds, and have been able identify and help 6 children who were not
-                    going to school because thei families could not afford it. Each child has received school equipment, books,
-                    and clothes as well as having their school fees payed up to June 2025. The children are now going to
-                    various schools in the area.</p>
-                <p>We gathered 1000€ in donations of which 89% were spent directly for the children, the rest was used for
-                    expenses including transport and banking fees.  <button onclick="openModal('financial-2025-3','en')" class="modal-link">See Report</button></p>
-                <p>In the meantime more children have been identifed, and we are in the process of collecting more donations
-                    to continue helping the current children and to expand the program to others.</p>
-            </section>             
-            <section id="contact-en">
-                <h2>Contact Us</h2>
-                <p>We're happy to hear from you and available for any questions.</p>
-                <p><i class="fas fa-envelope"></i> tumaini-education-initiative@gmx.de</p>
-                <p><i class="fas fa-phone"></i> +49 08121-9953725</p>
-            </section>
-        </div>
-        
-        <footer>
-            <div class="footer-content">
-                <p>&copy; 2025 TUMAINI Education Initiative. All rights reserved.</p>
-                <a href="impressum-en.html">Legal Notice</a>
-            </div>
-        </footer>
-    </div>
-    
-    <!-- Back to top button -->
-    <div class="back-to-top" id="backToTop">
-        <i class="fas fa-arrow-up"></i>
-    </div>
-<!-- Info Modal -->
-<div id="infoModal" class="modal">
-  <div class="modal-content">
-    <span class="close-modal" onclick="closeModal()">&times;</span>
-    <div id="modalTextContent"></div>
-  </div>
-</div>
-
 </body>
 </html>

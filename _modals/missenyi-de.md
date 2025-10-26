@@ -1,5 +1,6 @@
 ---
-layout: null  # Prevents wrapping in a layout
+layout: null
+permalink: /modals/missenyi-de
 ---
 ## Über den Distrikt Missenyi
 

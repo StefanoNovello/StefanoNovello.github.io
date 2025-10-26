@@ -1,8 +1,24 @@
 collections:
+  content:
+    output: true
   modals:
     output: true
-    permalink: /modals/:name.html
+
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+  auto_ids: true
+  transliterated_header_ids: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "modals"
+    values:
+      layout: null
+
 plugins:
   - jekyll-sitemap
+
 url: "https://tumaini-initiative.de"  # Always this
 baseurl: ""  # Keep empty for root domains

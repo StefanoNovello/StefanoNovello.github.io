@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: "TUMAINI Education Initiative" }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <script src="/script.js?v=1"></script>
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <a href="/de/" {% if page.language == "de" %}class="active"{% endif %}>DE</a>
+        <a href="/it/" {% if page.language == "it" %}class="active"{% endif %}>IT</a>
+        <a href="/en/" {% if page.language == "en" %}class="active"{% endif %}>EN</a>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <h1>TUMAINI Education Initiative</h1>
+        <p class="subtitle">{{ page.subtitle }}</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about-{{ page.language }}">{{ page.nav.about }}</a></li>
+            <li><a href="#mission-{{ page.language }}">{{ page.nav.mission }}</a></li>
+            <li><a href="#donate-{{ page.language }}">{{ page.nav.donate }}</a></li>
+            <li><a href="#status-{{ page.language }}">{{ page.nav.status }}</a></li>
+            <li><a href="#contact-{{ page.language }}">{{ page.nav.contact }}</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        {{ content }}
+    </main>
+    
+    <!-- Back to top button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Modal -->
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div id="modalTextContent"></div>
+        </div>
+    </div>
+</body>
+</html>

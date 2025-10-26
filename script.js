@@ -1,126 +1,52 @@
-    const galleryContent = [
-        {
-            src: "img/IMG-20250504-WA0027.jpg",
-            alt: {
-                de: "Kinder unterstüzt durch TUMAINI",
-                en: "Children supported by TUMAINI",
-                it: "Bambini che ricevono appoggio da TUMAINI"
-            }
-        },
-        {
-            src: "img/IMG-20250508-WA0002.jpg",
-            alt: {
-                de: "Kinder in der Schule",
-                en: "Children at school",
-                it: "Bambini a scuola"
-            }
-        },
-        {
-            src: "img/16_651ca63b.jpg",
-            alt: {
-                de: "Kinder in der Schule",
-                en: "Children at school",
-                it: "Bambini a scuola"
-            }
-        },
-    ];
-
-function detectUserLanguage(supportedLanguages, defaultLanguage = 'de') {
-  const userLanguages = navigator.languages || [navigator.language || defaultLanguage];
-
-  for (const lang of userLanguages) {
-    const baseLang = lang.toLowerCase().split('-')[0]; // normalize, e.g., 'en-US' → 'en'
-    if (supportedLanguages.includes(baseLang)) {
-      return baseLang;
-    }
-  }
-
-  return defaultLanguage;
-}
-
-// Example usage:
-const supportedLanguages = ['en', 'it', 'de'];
-
-
-// You can now redirect or load the page in that language
-    
 document.addEventListener('DOMContentLoaded', function() {
-    // Language switching functionality
-    const langDe = document.getElementById('lang-de');
-    const langIt = document.getElementById('lang-it');
-    const langEn = document.getElementById('lang-en');
-    
-    const contentDe = document.getElementById('content-de');
-    const contentIt = document.getElementById('content-it');
-    const contentEn = document.getElementById('content-en');
-
-
-
-    function renderGallery(lang) {
-        console.log(`render gallery ${lang}`)
-        const gallery = document.getElementById('gallery-' + lang);
-        gallery.innerHTML = galleryContent.map(item => `
-          <div class="gallery-item">
-            <img src="${item.src}" alt="${item.alt[lang]}">
-          </div>
-        `).join('');
-    }
-
-    function switchTo(langCode) {
-        const content = document.getElementById('content-' + langCode);
-        const lang = document.getElementById('lang-'+ langCode);
-        const langs = [ langDe, langIt, langEn ];
-        const contents = [ contentDe, contentIt, contentEn ];
-        for (const c of contents) {
-             c.classList[c == content ? 'add' : 'remove']('active')
+    // Set up modal link handlers
+    document.addEventListener('click', function(e) {
+        const link = e.target.closest('.modal-link');
+        if (link) {
+            e.preventDefault();
+            const modalId = link.getAttribute('data-modal');
+            const lang = document.documentElement.lang;
+            openModal(modalId, lang);
         }
-        for (const l of langs) {
-            l.classList[l == lang ? 'add' : 'remove']('active')
-        }
-        renderGallery(langCode);
-        saveLanguagePref(langCode);
-    }
+    });
+    // Initialize gallery
+    function initGallery() {
+        const galleries = document.querySelectorAll('.gallery');
+        if (galleries.length === 0) return;
 
+        galleries.forEach(gallery => {
+            gallery.querySelectorAll('.gallery-item img').forEach(img => {
+                img.addEventListener('click', function() {
+                    const modal = document.getElementById('infoModal');
+                    const modalContent = document.getElementById('modalTextContent');
+                    modalContent.innerHTML = `
+                        <div class="gallery-modal">
+                            <img src="${this.src}" alt="${this.alt}">
+                            <p class="gallery-caption">${this.alt}</p>
+                        </div>
+                    `;
+                    modal.style.display = "block";
+                });
+            });
+        });
+    }
+    initGallery();
+
+    // Update scroll padding for smooth anchor navigation
     function updateScrollPadding() {
         const nav = document.querySelector('nav');
         if (nav && nav.offsetHeight) {
-            const navHeight = nav.offsetHeight; // Gets current height (including wrapped lines)
+            const navHeight = nav.offsetHeight;
             document.documentElement.style.setProperty(
-            '--scroll-padding',
-            `${navHeight}px`
+                '--scroll-padding',
+                `${navHeight}px`
             );
-            console.log('updated scroll padding to: ',navHeight)
         }
     }
 
     updateScrollPadding();
-    // Run on load and window resize
-    window.addEventListener('load', function() {
-        console.log('Update scroll padding on load');
-        updateScrollPadding();
-    });
+    window.addEventListener('load', updateScrollPadding);
     window.addEventListener('resize', updateScrollPadding);
-
-    
-    // Add event listener
-    langDe.addEventListener('click', () => { switchTo('de'); });
-    langIt.addEventListener('click', () => { switchTo('it'); });
-    langEn.addEventListener('click', () => { switchTo('en'); });
-    
-    // Check for language preference in localStorage
-    const savedLang = localStorage.getItem('tumainiLang');
-    if (savedLang) {
-        switchTo(savedLang);
-    } else {
-        const userLang = detectUserLanguage(supportedLanguages);
-        console.log(`Detected user language: ${userLang}`);
-        switchTo(userLang);
-    }
-    
-    // Save language preference
-    function saveLanguagePref(lang) {
-        localStorage.setItem('tumainiLang', lang);
-    }
     
     // Scroll to top button
     const backToTopBtn = document.getElementById('backToTop');
@@ -164,26 +90,49 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function openModal(contentId, lang) {
-  const baseUrl = window.location.origin;
-  fetch(`${baseUrl}/modals/${contentId}-${lang}.html`)
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('modalTextContent').innerHTML = html;
-      document.getElementById('infoModal').style.display = "block";
-    })
-    .catch(err => {
-      console.error('Error loading modal:', err);
-      // Fallback content here
-    });
+    const modal = document.getElementById('infoModal');
+    const modalContent = document.getElementById('modalTextContent');
+    
+    // Show loading state
+    modalContent.innerHTML = '<div class="modal-loading">Loading...</div>';
+    modal.style.display = "block";
+    
+    fetch(`/modals/${contentId}`)
+        .then(response => {
+            if (!response.ok) {
+                console.error('Failed to fetch modal:', response.status, response.statusText);
+                throw new Error('Modal content not found');
+            }
+            return response.text();
+        })
+        .then(html => {
+            if (!html.trim()) {
+                throw new Error('Empty modal content');
+            }
+            modalContent.innerHTML = html;
+        })
+        .catch(err => {
+            console.error('Error loading modal:', err);
+            modalContent.innerHTML = `
+                <div class="modal-error">
+                    <h2>Error Loading Content</h2>
+                    <p>Sorry, the requested content could not be loaded. Please try again later.</p>
+                    <p class="error-details">${err.message}</p>
+                </div>
+            `;
+        });
 }
+
 function closeModal() {
-  document.getElementById('infoModal').style.display = "none";
+    const modal = document.getElementById('infoModal');
+    modal.style.display = "none";
+    document.getElementById('modalTextContent').innerHTML = '';
 }
 
 // Close modal when clicking outside content
 window.onclick = function(event) {
-  const modal = document.getElementById('infoModal');
-  if (event.target == modal) {
-    closeModal();
-  }
+    const modal = document.getElementById('infoModal');
+    if (event.target == modal) {
+        closeModal();
+    }
 }
