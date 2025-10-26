@@ -18,10 +18,7 @@ nav:
 
 Fondata nel 2024 attraverso una partnership tra Fr. Nicolaus Matungwa Gomano e donatori della parrocchia di Markt Schwaben a Monaco, operiamo nel <a href="#" class="modal-link" data-modal="missenyi-it">distretto di Missenyi</a> a Kagera, Tanzania.
 
-{:.gallery#gallery-it}
-![Bambini che ricevono appoggio da TUMAINI](/img/IMG-20250504-WA0027.jpg){:.gallery-item}
-![Bambini a scuola](/img/IMG-20250508-WA0002.jpg){:.gallery-item}
-![Bambini a scuola](/img/16_651ca63b.jpg){:.gallery-item}
+{% include gallery.liquid id='about-us-gallery' images=site.data.about_us_gallery %}
 
 ## La nostra missione {#mission-it}
 

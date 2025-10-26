@@ -19,10 +19,7 @@ nav:
 
 Gegründet 2024 durch eine Partnerschaft zwischen Fr. Nicolaus Matungwa Gomano und Spendern der Pfarrei Markt Schwaben in München, arbeiten wir im [Distrikt Missenyi](#){:.modal-link data-modal="missenyi-de"} in Kagera, Tansania.
 
-{:.gallery#gallery-de}
-![Kinder unterstüzt durch TUMAINI](/img/IMG-20250504-WA0027.jpg){:.gallery-item}
-![Kinder in der Schule](/img/IMG-20250508-WA0002.jpg){:.gallery-item}
-![Kinder in der Schule](/img/16_651ca63b.jpg){:.gallery-item}
+{% include gallery.liquid id='about-us-gallery' images=site.data.about_us_gallery %}
 
 ## Unsere Mission {#mission-de}
 

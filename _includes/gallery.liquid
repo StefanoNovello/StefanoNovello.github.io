@@ -1,0 +1,11 @@
+---
+---
+
+{% assign lang = include.lang | default: page.language %}
+<div class="gallery" id="{{ include.id }}-{{ lang }}">
+{% for item in include.images %}
+<div class="gallery-item">
+<img src="{{ item.url }}" alt="{{ item.alt[lang] }}" loading="lazy">
+</div>
+{% endfor %}
+</div>
