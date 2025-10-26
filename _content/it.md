@@ -41,12 +41,7 @@ La tua donazione offre ai bambini in Tanzania l'accesso all'istruzione e la poss
 ### Sostieni un bambino
 
 {: .donation-box}
-Con una donazione di:
-
-{: .donation-amount}
-300€
-
-puoi coprire i bisogni educativi di un bambino per un intero anno.
+Con una donazione di 300€ puoi coprire i bisogni educativi di un bambino per un intero anno.
 
 {: .bank-details}
 #### Conto per donazioni

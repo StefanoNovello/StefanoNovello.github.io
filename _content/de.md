@@ -42,12 +42,9 @@ Ihre Spende ermöglicht Kindern in Tansania den Zugang zu Bildung und damit eine
 ### Ein Kind unterstützen
 
 {: .donation-box}
-Mit einer Spende von:
-
-{: .donation-amount}
-300€
-
-können Sie die Bildungsbedürfnisse eines Kindes für ein ganzes Jahr decken.
+**Jede Spende zählt – ob groß oder klein!**  
+Jeder Beitrag unterstützt direkt die Kinder in Tansania.  
+Mit nur 300 €, also weniger als 1 € pro Tag, kannst du die Ausbildung eines Kindes für ein Jahr finanzieren.
 
 {: .bank-details}
 #### Spendenkonto
@@ -56,6 +53,15 @@ können Sie die Bildungsbedürfnisse eines Kindes für ein ganzes Jahr decken.
 IBAN: DE87 7509 0300 0002 1409 00  
 BIC: GENODEF1M05  
 **Verwendungszweck:** TUMAINI
+
+Die [Pfarrei St. Margaret](https://www.erzbistum-muenchen.de/pfarrei/st-margaret-markt-schwaben/cont/56634) in Markt Schwaben stellt auf Wunsch eine Spendenquittung aus.
+
+[<i class="fas fa-envelope"></i> st-margaret.markt-schwaben@ebmuc.de](mailto:st-margaret.markt-schwaben@ebmuc.de)
+
+Möchtest du **langfristig helfen** und Teil der Tumaini Education Initiative werden?  
+Werde Patin oder Pate! Du entscheidest selbst, wie lange und mit welchem Beitrag du das Projekt unterstützen möchtest.  
+Es ist auch möglich, ein bestimmtes Kind aus der Ferne zu unterstützen.  
+[Kontaktiere uns](#contact-de) – wir freuen uns sehr, dich in unserem Kreis von Unterstützerinnen und Unterstützern willkommen zu heißen.
 
 ## Status {#status-de}
 

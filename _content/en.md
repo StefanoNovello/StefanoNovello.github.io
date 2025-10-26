@@ -41,12 +41,7 @@ Your donation gives children in Tanzania access to education and thus a chance f
 ### Support a Child
 
 {: .donation-box}
-With a donation of:
-
-{: .donation-amount}
-€300
-
-you can cover a child's educational needs for an entire year.
+With a donation of €300 you can cover a child's educational needs for an entire year.
 
 {: .bank-details}
 #### Donation Account
