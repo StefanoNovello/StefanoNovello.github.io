@@ -41,8 +41,9 @@ Your donation gives children in Tanzania access to education and thus a chance f
 ### Support a Child
 
 {: .donation-box}
-With a donation of €300 you can cover a child's educational needs for an entire year.
-
+**Every donation counts, big or small!**  
+Every contribution directly supports children in Tanzania.  
+With just €300 — less than €1 a day — you can cover a child’s education costs for an entire year.
 {: .bank-details}
 #### Donation Account
 
@@ -51,9 +52,38 @@ IBAN: DE87 7509 0300 0002 1409 00
 BIC: GENODEF1M05  
 **Reference:** TUMAINI
 
+The [Parish of St. Margaret](https://www.erzbistum-muenchen.de/pfarrei/st-margaret-markt-schwaben/cont/56634) in Markt Schwaben will provide a donation receipt upon request.
+
+[<i class="fas fa-envelope"></i> st-margaret.markt-schwaben@ebmuc.de](mailto:st-margaret.markt-schwaben@ebmuc.de)
+
+Would you like to **support us long-term** and become part of the Tumaini Education Initiative?  
+Become a sponsor! You decide how long and with what contribution you’d like to support the project.  
+It’s also possible to sponsor a specific child at a distance.  
+[Contact us](#contact-en) — we would be delighted to welcome you into our circle of supporters.
+
 ## Status {#status-en}
 
-March 2025
+### October 2025
+
+### 🇬🇧 Project Update – Autumn 2025
+
+Thanks to a **second round of generous donations**, we were able to cover the **school fees for all children for the remainder of 2025** and also respond to several **individual needs**:
+
+- A mattress for a child who had been sleeping on the bare floor and often felt tired at school.  
+- A bicycle for another child who had a very long walk to school every day.  
+- Boarding accommodation for a child facing a very difficult family situation.  
+
+All **six children we support** are now able to attend school regularly and are making good progress — a wonderful success for everyone involved!
+
+In addition, our **network of supporters has grown**.  
+In a separate effort in **Calabria, Italy**, a clothes collection was organized. Pilgrims traveling to Rome kindly carried the donations in their luggage to Tanzania — resulting in **over 120 kg of second-hand clothes** being distributed in a big weekend action that was warmly received. A financial donation also accompanied this initiative.  
+
+We also held **workshops in two primary schools near Markt Schwaben**, where children learned what school life is like in Tanzania. We hope this will inspire further fundraising activities.  
+
+Currently, we are **preparing for the Advent Concert** at *St. Margaret, Markt Schwaben* on **Sunday, November 30, 2025, at 6 p.m.**, where donations for the Tumaini Education Initiative will once again be collected.  
+We are deeply grateful to everyone who contributes — your support truly changes lives!
+
+### March 2025
 
 We have completed our first transfer of funds, and have been able identify and help 6 children who were not going to school because their families could not afford it. Each child has received school equipment, books, and clothes as well as having their school fees payed up to June 2025. The children are now going to various schools in the area.
 

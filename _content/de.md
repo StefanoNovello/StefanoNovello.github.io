@@ -65,7 +65,25 @@ Es ist auch möglich, ein bestimmtes Kind aus der Ferne zu unterstützen.
 
 ## Status {#status-de}
 
-März 2025
+### Oktober 2025
+
+Dank einer **zweiten Spendenrunde** konnten wir die **Schulgebühren für alle Kinder bis Ende 2025** bezahlen und zusätzlich auf einige **individuelle Bedürfnisse** eingehen:
+
+- Eine Matratze für ein Kind, das bisher auf dem harten Boden schlafen musste und in der Schule oft müde war.  
+- Ein Fahrrad für ein anderes Kind, das jeden Tag einen sehr langen Schulweg zu Fuß zurücklegen musste.  
+- Ein Platz im Internat für ein Kind mit einer besonders schwierigen Familiensituation.  
+
+Alle **sechs Kinder, die wir unterstützen**, können nun regelmäßig die Schule besuchen und machen gute Fortschritte – ein wunderbarer Erfolg für alle Beteiligten!
+
+Außerdem hat sich unser **Netzwerk der Unterstützerinnen und Unterstützer erweitert**.  
+In einer separaten Aktion in **Kalabrien (Italien)** wurde eine Kleidersammlung organisiert. Pilger, die nach Rom reisten, nahmen die Spenden in ihrem Gepäck mit nach Tansania – so konnten **über 120 kg gebrauchter Kleidung** in einer großen Wochenendaktion verteilt werden, die mit großer Dankbarkeit aufgenommen wurde. Auch eine Geldspende war Teil dieser Initiative.  
+
+Darüber hinaus fanden **Workshops in zwei Grundschulen bei Markt Schwaben** statt, in denen die Kinder erfuhren, wie der Schulalltag in Tansania aussieht. Wir hoffen, dass daraus weitere Spendenaktionen entstehen.  
+
+Derzeit bereiten wir uns auf das **Adventskonzert** in *St. Margaret, Markt Schwaben* am **Sonntag, 30. November 2025, um 18 Uhr** vor, bei dem erneut Spenden für die Tumaini Education Initiative gesammelt werden.  
+Wir danken allen von Herzen – **eure Unterstützung verändert Leben!**
+
+### März 2025
 
 Wir haben unsere erste Mittelübertragung abgeschlossen und konnten 6 Kindern helfen, die aufgrund finanzieller Schwierigkeiten ihrer Familien nicht zur Schule gehen konnten. Jedes Kind erhielt Schulmaterial, Bücher und Kleidung, und die Schulgebühren wurden bis Juni 2025 übernommen. Die Kinder besuchen nun verschiedene Schulen in der Region.
 
