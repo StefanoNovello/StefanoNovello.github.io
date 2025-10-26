@@ -12,8 +12,6 @@ nav:
   contact: Contatti
 ---
 
-# TUMAINI Education Initiative
-
 ## Chi siamo {#about-it}
 
 **"Tumaini" significa "speranza" in Swahili.** La nostra iniziativa sostiene i bambini nelle zone rurali della Tanzania che non hanno accesso all'istruzione a causa di difficoltà finanziarie.

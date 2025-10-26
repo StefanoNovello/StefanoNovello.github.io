@@ -12,8 +12,6 @@ nav:
   contact: Contact
 ---
 
-# TUMAINI Education Initiative
-
 ## About Us {#about-en}
 
 **"Tumaini" means "hope" in Swahili.** Our initiative supports children in remote rural areas of Tanzania who face financial barriers to education.

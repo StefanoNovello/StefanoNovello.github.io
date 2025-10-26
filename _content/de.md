@@ -12,7 +12,6 @@ nav:
   contact: Kontakt
 ---
 
-# TUMAINI Education Initiative
 
 ## Über uns {#about-de}
 
