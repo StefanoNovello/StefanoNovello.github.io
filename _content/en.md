@@ -80,6 +80,8 @@ We also held **workshops in two primary schools near Markt Schwaben**, where chi
 Currently, we are **preparing for the Advent Concert** at *St. Margaret, Markt Schwaben* on **Sunday, November 30, 2025, at 6 p.m.**, where donations for the Tumaini Education Initiative will once again be collected.  
 We are deeply grateful to everyone who contributes — your support truly changes lives!
 
+[See Report](#){:.modal-link data-modal="financial-2025-11-en"}. The report has been redacted so as not to include personal data of the assisted children.
+
 ### March 2025
 
 We have completed our first transfer of funds, and have been able identify and help 6 children who were not going to school because their families could not afford it. Each child has received school equipment, books, and clothes as well as having their school fees payed up to June 2025. The children are now going to various schools in the area.

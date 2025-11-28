@@ -80,6 +80,8 @@ Darüber hinaus fanden **Workshops in zwei Grundschulen bei Markt Schwaben** sta
 Derzeit bereiten wir uns auf das **Adventskonzert** in *St. Margaret, Markt Schwaben* am **Sonntag, 30. November 2025, um 18 Uhr** vor, bei dem erneut Spenden für die Tumaini Education Initiative gesammelt werden.  
 Wir danken allen von Herzen – **eure Unterstützung verändert Leben!**
 
+[Bericht auf Englisch](#){:.modal-link data-modal="financial-2025-11-en"}. Der Bericht wurde bearbeitet, um keine personenbezogenen Daten der geförderten Kinder zu enthalten.
+
 ### März 2025
 
 Wir haben unsere erste Mittelübertragung abgeschlossen und konnten 6 Kindern helfen, die aufgrund finanzieller Schwierigkeiten ihrer Familien nicht zur Schule gehen konnten. Jedes Kind erhielt Schulmaterial, Bücher und Kleidung, und die Schulgebühren wurden bis Juni 2025 übernommen. Die Kinder besuchen nun verschiedene Schulen in der Region.
