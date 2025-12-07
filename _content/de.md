@@ -61,8 +61,21 @@ Es ist auch möglich, ein bestimmtes Kind aus der Ferne zu unterstützen.
 [Kontaktiere uns](#contact-de) – wir freuen uns sehr, dich in unserem Kreis von Unterstützerinnen und Unterstützern willkommen zu heißen.
 
 ## Status {#status-de}
+### Novemebr 2025
+### Adventskonzert in der Pfarrkirche St. Margaret – Großer Erfolg für die Tumaini Education Initiative
+
+Am Sonntag, den 30. November 2025, fand in der Pfarrkirche St. Margaret in Markt Schwaben ein  Adventskonzert statt. Während der Veranstaltung stellte **Pater Nicolaus** die *Tumaini Education Initiative* in einer sehr persönlichen und berührenden Ansprache vor und gab dem Publikum einen bewegenden Einblick in die Ziele und die Bedeutung des Projekts.
+
+Die Kirche war voll und bot eine wunderbare Atmosphäre für einen Abend voller Musik und Gemeinschaft. Zwei Chöre – der **Kirchenchor St. Margaret** und der **Munich International Choral Society (MiCS)** – sangen einzeln, gemeinsam und zum Abschluss sogar zusammen mit dem Publikum. Auch mehrere Solisten trugen maßgeblich zum musikalischen Erfolg des Abends bei.
+
+Dank der Großzügigkeit aller Anwesenden konnten **über 3.300 EUR** an Spenden gesammelt werden. Diese Unterstützung bedeutet sehr viel für die Tumaini Education Initiative und ermöglicht wichtige Schritte, um ihre Zukunft zu sichern und ihr Wachstum fortzuführen.
+
+**Wir danken allen herzlich, die zu diesem großartigen Erfolg beigetragen haben.**
+
+{% include gallery.liquid id='adventskonzert-gallery' images=site.data.advent_concert %}
 
 ### Oktober 2025
+### Zweite Spendenrunde
 
 Dank einer **zweiten Spendenrunde** konnten wir die **Schulgebühren für alle Kinder bis Ende 2025** bezahlen und zusätzlich auf einige **individuelle Bedürfnisse** eingehen:
 
@@ -83,7 +96,7 @@ Wir danken allen von Herzen – **eure Unterstützung verändert Leben!**
 [Bericht auf Englisch](#){:.modal-link data-modal="financial-2025-11-en"}. Der Bericht wurde bearbeitet, um keine personenbezogenen Daten der geförderten Kinder zu enthalten.
 
 ### März 2025
-
+### Erste Schritte
 Wir haben unsere erste Mittelübertragung abgeschlossen und konnten 6 Kindern helfen, die aufgrund finanzieller Schwierigkeiten ihrer Familien nicht zur Schule gehen konnten. Jedes Kind erhielt Schulmaterial, Bücher und Kleidung, und die Schulgebühren wurden bis Juni 2025 übernommen. Die Kinder besuchen nun verschiedene Schulen in der Region.
 
 Wir haben 1.000 € an Spenden gesammelt, wovon 89% direkt den Kindern zugutekamen. Der Rest wurde für Ausgaben wie Transport und Bankgebühren verwendet. [Bericht auf Englisch](#){:.modal-link data-modal="financial-2025-3-en"}

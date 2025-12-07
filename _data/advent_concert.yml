@@ -1,0 +1,15 @@
+- url: /img/AdventsKonzert.jpg
+  alt:
+    de: "Konzertplakat"
+    en: "Concert Poster"
+    it: "Poster del concerto"
+- url: "/img/AdventsKonzertProgramm.jpg"
+  alt:
+    de: "Konzertprogramm"
+    en: "Concert Program"
+    it: "Programma del concerto"
+- url: /img/ConcertPic.jpg
+  alt:
+    de: "Vater Nicolaus während des Konzerts"
+    en: "Father Nicolaus during the concert"
+    it: "Padre Nicolaus durante il concerto"

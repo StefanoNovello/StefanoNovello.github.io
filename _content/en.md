@@ -59,10 +59,22 @@ It’s also possible to sponsor a specific child at a distance.
 [Contact us](#contact-en) — we would be delighted to welcome you into our circle of supporters.
 
 ## Status {#status-en}
+### Novemeber 2025
+### Advent Concert in St. Margaret’s Parish Church - A Heartfelt Success for the Tumaini Education Initiative
+
+On Sunday, 30 November 2025, a special advent concert took place in the Parish Church of St. Margaret in Markt Schwaben. During the event, **Father Nicolaus** introduced the *Tumaini Education Initiative* with a deeply personal and touching speech, giving the audience an inspiring insight into the project’s mission and impact.
+
+The church was filled to capacity, creating a wonderful atmosphere for an evening of music and community. Two choirs—the **Parish Choir of St. Margaret** and the **Munich International Choral Society (MiCS)**—performed separately, together, and finally joined by the audience. Several talented soloists also contributed to the musical success of the concert.
+
+Thanks to the generosity of all attendees, we collected **over 3,300 EUR** in donations. This support will make a significant difference for the Tumaini Education Initiative, helping us take important steps toward securing its future and enabling continued growth.
+
+**We extend our heartfelt thanks to everyone who made this evening such a success.**
+
+{% include gallery.liquid id='adventskonzert-gallery' images=site.data.advent_concert %}
 
 ### October 2025
 
-### 🇬🇧 Project Update – Autumn 2025
+### Project Update – Autumn 2025
 
 Thanks to a **second round of generous donations**, we were able to cover the **school fees for all children for the remainder of 2025** and also respond to several **individual needs**:
 
@@ -83,6 +95,7 @@ We are deeply grateful to everyone who contributes — your support truly change
 [See Report](#){:.modal-link data-modal="financial-2025-11-en"}. The report has been redacted so as not to include personal data of the assisted children.
 
 ### March 2025
+### The first doantions arrive
 
 We have completed our first transfer of funds, and have been able identify and help 6 children who were not going to school because their families could not afford it. Each child has received school equipment, books, and clothes as well as having their school fees payed up to June 2025. The children are now going to various schools in the area.
 

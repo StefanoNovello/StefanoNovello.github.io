@@ -60,8 +60,21 @@ Diventa un padrino o madrina! Decidi tu per quanto tempo e con quale contributo 
 [Contattaci](#contact-it), saremo contentissimi di accoglierti nella nostra cerchia di sostenitori.
 
 ## Status {#status-it}
+### Novembre 2025
+### Concerto Natalizio nella Chiesa Parrocchiale di Santa Margherita – Un grande successo per la Tumaini Education Initiative
+
+Domenica 30 novembre 2025 si è tenuto un concerto natalizio nella Chiesa Parrocchiale di Santa Margherita a Markt Schwaben. Durante l’evento, **Padre Nicolaus** ha presentato la *Tumaini Education Initiative* con un discorso molto personale ed emozionante, offrendo al pubblico una visione toccante della missione e dell’impatto del progetto.
+
+La chiesa era gremita, creando un’atmosfera splendida per una serata di musica e comunità. Due cori – il **Coro Parrocchiale di Santa Margherita** e il **Munich International Choral Society (MiCS)** – si sono esibiti separatamente, insieme e, nel finale, anche con il pubblico. Anche diversi solisti hanno contribuito in modo decisivo al successo musicale del concerto.
+
+Grazie alla generosità dei partecipanti, sono stati raccolti **oltre 3.300 EUR** in donazioni. Questo sostegno avrà un impatto significativo sulla Tumaini Education Initiative, permettendoci di compiere passi importanti per garantirne il futuro e favorirne la crescita.
+
+**Ringraziamo di cuore tutti coloro che hanno contribuito a questo splendido risultato.**
+
+{% include gallery.liquid id='adventskonzert-gallery' images=site.data.advent_concert %}
 
 ### Ottobre 2025
+### Un secondo giro di donazioni
 
 Grazie a un **secondo giro di generose donazioni**, siamo riusciti a coprire le **tasse scolastiche di tutti i bambini fino alla fine del 2025** e anche a rispondere a **diverse necessità individuali**:
 
@@ -82,6 +95,7 @@ Siamo profondamente grati a tutti coloro che contribuiscono — **il vostro sost
 [Rapporto in inglese](#){:.modal-link data-modal="financial-2025-11-en"}. Il rapporto è stato redatto in modo da non includere i dati personali dei bambini assistiti.
 
 ### Marzo 2025
+### Primi passi
 
 Abbiamo completato il nostro primo trasferimento di fondi e siamo riusciti a identificare e aiutare 6 bambini che non potevano frequentare la scuola a causa delle difficoltà economiche delle loro famiglie. Ogni bambino ha ricevuto materiale scolastico, libri e vestiti, e le tasse scolastiche sono state pagate fino a giugno 2025. I bambini ora frequentano varie scuole della zona.
 
