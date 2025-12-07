@@ -59,7 +59,7 @@ It’s also possible to sponsor a specific child at a distance.
 [Contact us](#contact-en) — we would be delighted to welcome you into our circle of supporters.
 
 ## Status {#status-en}
-### Novemeber 2025
+### November 2025
 ### Advent Concert in St. Margaret’s Parish Church - A Heartfelt Success for the Tumaini Education Initiative
 
 On Sunday, 30 November 2025, a special advent concert took place in the Parish Church of St. Margaret in Markt Schwaben. During the event, **Father Nicolaus** introduced the *Tumaini Education Initiative* with a deeply personal and touching speech, giving the audience an inspiring insight into the project’s mission and impact.
