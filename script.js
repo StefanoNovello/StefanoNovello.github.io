@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // save language selection
+    localStorage.setItem('tumainiLang', document.documentElement.lang);
     // Set up modal link handlers
     document.addEventListener('click', function(e) {
         const link = e.target.closest('.modal-link');

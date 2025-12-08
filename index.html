@@ -13,15 +13,17 @@
             // Check localStorage first
             const savedLang = localStorage.getItem('tumainiLang');
             if (savedLang && langs.includes(savedLang)) {
+                console.log("Saved language was", savedLang);
                 return savedLang;
             }
 
             // Check browser language
             const browserLang = navigator.language.split('-')[0];
             if (langs.includes(browserLang)) {
+                console.log("Language from browser:", browserLang);
                 return browserLang;
             }
-
+            console.log("Language from default:", defaultLang);
             return defaultLang;
         }
 
