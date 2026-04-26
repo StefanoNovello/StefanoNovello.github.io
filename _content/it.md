@@ -60,6 +60,51 @@ Diventa un padrino o madrina! Decidi tu per quanto tempo e con quale contributo 
 [Contattaci](#contact-it), saremo contentissimi di accoglierti nella nostra cerchia di sostenitori.
 
 ## Status {#status-it}
+### Aprile 2026
+### Costruire la sostenibilità: più bambini, più sostenitori, una scuola per il futuro
+
+#### Concerto – Novembre 2025
+
+Dopo le spese, il concerto di novembre 2025 ha fruttato **€ 3.127,63** per il progetto — un bel risultato reso possibile da tutti coloro che hanno suonato, organizzato e partecipato.
+
+#### Mercatino di Pasqua – Scuola Elementare Carl Orff, Erding
+
+Il 17 marzo 2026 i bambini di tutte le classi hanno realizzato oggetti a tema pasquale insieme ai loro insegnanti, e gli alunni di terza li hanno poi venduti ai genitori a scuola. L'evento ha raccolto **€ 900**, consegnati di persona a Padre Nicolaus durante la sua visita il 16 aprile 2026.
+
+#### Franz Marc Gymnasium – Eine-Welt-Gruppe, Markt Schwaben
+
+Padre Nicolaus ha visitato il Franz Marc Gymnasium e incontrato l'*Eine-Welt-Gruppe* — un'iniziativa studentesca attiva dalla fine degli anni '80 che sostiene progetti educativi e di sviluppo nel Sud del mondo attraverso raccolte fondi, eventi e collaborazioni dirette. La visita ha portato a una nuova collaborazione concreta: Padre Nicolaus preparerà un elenco di materiale scolastico difficile da trovare in Tanzania, che il gruppo si impegnerà a raccogliere e inviare.
+
+#### Calabria – Visite Scolastiche e Raccolta Fondi
+
+Nella settimana precedente la Settimana Santa, Padre Nicolaus ha visitato sei scuole in Calabria, grazie all'impegno personale della referente locale Assunta. Aveva già presentato il progetto alle dirigenti scolastiche, e i rappresentanti di ogni classe sono stati riuniti affinché Padre Nicolaus potesse ringraziarli di persona per il contributo alla raccolta di vestiti dell'anno scorso. Nonostante il tempo scarso — le scuole avevano già perso giorni per le elezioni — i bambini hanno partecipato con entusiasmo. È previsto un evento più ampio aperto ai genitori.
+
+Assunta ha inoltre raccolto **€ 500** attraverso i suoi contatti personali, e dona il 10% del ricavato dalla vendita di un prodotto benessere — **€ 55** in questo periodo — un contributo discreto ma continuo.
+
+#### Pellegrinaggio a Medjugorje
+
+Olga Novello e Padre Nicolaus hanno partecipato a un pellegrinaggio a Medjugorje, cogliendo l'occasione per presentare TEI agli altri pellegrini e distribuire volantini. Sono stati raccolti **€ 420**.
+
+#### Pagelle e Visite alle Famiglie
+
+A gennaio abbiamo ricevuto le pagelle di tutti i bambini che sosteniamo. I risultati sono nel complesso incoraggianti, anche se sono emerse alcune aree in cui sarà necessario un supporto aggiuntivo. Padre Salvio ha visitato le famiglie dei bambini e alcune delle loro scuole — un impegno non da poco, dato che alcuni bambini vivono in zone remote lontane dai villaggi. Le rette scolastiche per l'intero anno solare sono state pagate integralmente.
+
+Un bambino, nonostante il sostegno della famiglia e della scuola, non frequentava le lezioni con regolarità e mostrava scarso coinvolgimento anche quando presente. Dopo diversi tentativi di capire la situazione e offrire aiuto, si è deciso — a malincuore — di sospendere il suo sostegno, affinché i fondi possano andare a chi è in grado di beneficiarne. Si cercherà di metterlo in contatto con organizzazioni locali che possano aiutarlo in altro modo.
+
+| Concerto | Mercatino | Calabria | Medjugorje | **Totale** |
+|----------|-----------|----------|------------|------------|
+| € 3.127,63 | € 900,00 | € 555,00 | € 420,00 | **€ 5.002,63** |
+
+#### Guardando Avanti – Programma di Adozione a Distanza
+
+Padre Salvio ha attualmente una lista d'attesa di 11 bambini che potrebbero essere sostenuti dal progetto. Stiamo sviluppando un programma di sponsorizzazione che consentirà a singoli o organizzazioni di sostenere un bambino specifico, con la possibilità di ricevere aggiornamenti sui suoi progressi scolastici e, dove possibile, di comunicare direttamente con lui. Con il passaggio da eventi singoli a questo tipo di finanziamento regolare e continuativo, potremo espandere il progetto di conseguenza.
+
+#### Una Scuola per il Futuro
+
+Il passo successivo per rendere il progetto sostenibile nel lungo periodo è la creazione di una scuola secondaria privata di proprietà della Chiesa, i cui proventi finanzieranno borse di studio per studenti svantaggiati. La Diocesi di Bukoba ha donato circa 37 acri (15 ettari) di terreno su una strada principale, con accesso all'acqua e all'elettricità — un'ottima base di partenza. Un primo donatore ha già contribuito con **€ 1.000** per la costruzione. Il progetto è ancora nelle sue fasi iniziali, ma è uno sviluppo molto promettente sul quale vi terremo aggiornati.
+
+{% include gallery.liquid id='april_2026_update_gallery' images=site.data.april_2026_update %}
+
 ### Novembre 2025
 ### Concerto Natalizio nella Chiesa Parrocchiale di Santa Margherita – Un grande successo per la Tumaini Education Initiative
 

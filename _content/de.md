@@ -61,6 +61,45 @@ Es ist auch möglich, ein bestimmtes Kind aus der Ferne zu unterstützen.
 [Kontaktiere uns](#contact-de) – wir freuen uns sehr, dich in unserem Kreis von Unterstützerinnen und Unterstützern willkommen zu heißen.
 
 ## Status {#status-de}
+
+### April 2026
+### Nachhaltigkeit aufbauen: Mehr Kinder, mehr Unterstützer, eine Schule für die Zukunft
+
+#### Konzert – November 2025
+Nach Abzug aller Kosten erbrachte das Konzert im November 2025 3.127,63 € für das Projekt — ein schönes Ergebnis, das allen zu verdanken ist, die mitgewirkt, organisiert und teilgenommen haben.
+
+#### Ostermarkt – Carl-Orff-Grundschule Erding
+Am 17. März 2026 gestalteten Kinder aller Klassen gemeinsam mit ihren Lehrerinnen und Lehrern österliche Objekte, die Drittklässler anschließend an Eltern verkauften. Der Markt brachte 900 € ein, die Pater Nikolaus bei seinem Besuch am 16. April 2026 persönlich übergeben wurden.
+
+#### Franz-Marc-Gymnasium – Eine-Welt-Gruppe, Markt Schwaben
+Pater Nikolaus besuchte das Franz-Marc-Gymnasium und traf sich mit der schulischen Eine-Welt-Gruppe — einer seit Ende der 1980er Jahre aktiven Schülerinitiative, die durch Spendenaktionen, Veranstaltungen und direkte Partnerschaften Bildungs- und Entwicklungsprojekte im Globalen Süden unterstützt. Der Besuch mündete in eine konkrete Zusammenarbeit: Pater Nikolaus stellt eine Liste von Schulmaterialien zusammen, die in Tansania schwer zu beschaffen sind, und die EWG wird sich darum bemühen, diese zu sammeln und zu schicken.
+
+#### Kalabrien – Schulbesuche und Spendenaktionen
+In der Woche vor der Heiligen Woche besuchte Pater Nikolaus sechs Schulen in Kalabrien — ermöglicht durch den persönlichen Einsatz der lokalen Ansprechpartnerin Assunta. Sie hatte das Projekt zuvor den Schulleitungen vorgestellt, und Klassenvertreter wurden versammelt, damit Pater Nikolaus den Kindern für ihren Beitrag zur letztjährigen Kleiderspende persönlich danken konnte. Trotz der knappen Zeit — durch Wahlen waren bereits Schultage ausgefallen — war die Beteiligung der Kinder bemerkenswert. Eine größere Veranstaltung für Eltern ist in Planung.
+
+Über ihre persönlichen Kontakte sammelte Assunta darüber hinaus 500 €. Außerdem spendet sie 10 % ihres Einkommens aus dem Verkauf eines Wellnessprodukts — in diesem Zeitraum 55 € — ein stilles, aber beständiges Engagement.
+
+#### Pilgerfahrt nach Medjugorje
+Olga Novello und Pater Nikolaus nahmen an einer Pilgerfahrt nach Medjugorje teil und nutzten die Gelegenheit, TEI den Mitpilgern vorzustellen und Informationsblätter zu verteilen. Dabei kamen 420 € zusammen.
+
+#### Schulberichte und Familienbesuche
+Im Januar erhielten wir die Zeugnisse aller unterstützten Kinder. Die Ergebnisse sind insgesamt ermutigend, es wurden jedoch Bereiche identifiziert, in denen zusätzliche Unterstützung nötig sein wird. Pater Salvius besuchte die Familien der Kinder und mehrere ihrer Schulen — ein erheblicher Aufwand, da manche Kinder weit außerhalb der Dörfer leben. Alle Schulgebühren für das laufende Kalenderjahr wurden bezahlt.
+
+Ein Kind hat trotz Unterstützung durch Familie und Schule den Unterricht regelmäßig versäumt und zeigte auch bei Anwesenheit wenig Beteiligung. Nach mehreren Versuchen, die Situation zu verstehen und Hilfe anzubieten, wurde — schweren Herzens — entschieden, die Unterstützung zu beenden, damit die Mittel Kindern zugutekommen können, die die Möglichkeit nutzen wollen. Es wird versucht, das Kind mit lokalen Organisationen in Kontakt zu bringen, die auf andere Weise helfen können.
+
+
+| Konzert | Ostermarkt | Kalabrien | Medjugorje | **Gesamt** |
+|---------|------------|-----------|------------|------------|
+| 3.127,63 € | 900,00 € | 555,00 € | 420,00 € | **5.002,63 €** |
+
+#### Ausblick – Patenschaftsprogramm für Kinder
+Pater Salvius hat derzeit eine Warteliste von 11 Kindern, die vom Projekt unterstützt werden könnten. Wir entwickeln ein Patenschaftsprogramm, das es Einzelpersonen oder Organisationen ermöglicht, ein bestimmtes Kind zu unterstützen — mit der Möglichkeit, Berichte über seinen Schulfortschritt zu erhalten und, wo es sich anbietet, direkt mit dem Kind in Kontakt zu treten. Mit dem Übergang von Einzelveranstaltungen zu dieser Art regelmäßiger Förderung werden wir das Projekt entsprechend ausbauen können.
+
+##### Eine Schule für die Zukunft
+Der nächste Schritt zur langfristigen Nachhaltigkeit des Projekts ist die Gründung einer privaten, kircheneigenen weiterführenden Schule, die durch ihre Einnahmen Stipendien für benachteiligte Schülerinnen und Schüler finanzieren soll. Das Bistum Bukoba hat hierfür rund 37 Acres (15 ha) Land an einer Hauptstraße mit Anschluss an Wasser und Strom zur Verfügung gestellt — eine sehr gute Grundlage. Ein erster Spender hat bereits 1.000 € für den Bau beigesteuert. Das Vorhaben steckt noch in den Anfängen, aber es ist eine vielversprechende Entwicklung, über die wir Sie weiter auf dem Laufenden halten werden.
+
+{% include gallery.liquid id='april_2026_update_gallery' images=site.data.april_2026_update %}
+
 ### Novemebr 2025
 ### Adventskonzert in der Pfarrkirche St. Margaret – Großer Erfolg für die Tumaini Education Initiative
 

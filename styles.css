@@ -204,6 +204,35 @@ li {
     margin-bottom: 0.8rem;
     position: relative;
 }
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) td {
+    background-color: var(--secondary-color);
+}
+
+tr:last-child td {
+    border-bottom: 2px solid var(--primary-color);
+    font-weight: bold;
+}
 /*
 li::before {
     content: '•';

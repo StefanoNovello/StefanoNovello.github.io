@@ -59,6 +59,50 @@ It’s also possible to sponsor a specific child at a distance.
 [Contact us](#contact-en) — we would be delighted to welcome you into our circle of supporters.
 
 ## Status {#status-en}
+### April 2026
+### Building Sustainability: More Children, More Supporters, a School for the Future
+#### Concert – November 2025
+
+After costs, the November 2025 concert raised **€3,127.63** for the project — a wonderful result made possible by everyone who performed, organised and attended.
+
+#### Easter Bazaar – Carl Orff Primary School, Erding
+
+On 17 March 2026, children from all classes made Easter-themed objects with the help of their teachers, and third-form pupils sold them to parents at school. The event raised **€900**, which was handed personally to Father Nicolaus when he visited on 16 April 2026.
+
+#### Franz Marc Gymnasium – Eine-Welt-Gruppe, Markt Schwaben
+
+Father Nicolaus visited the Franz Marc Gymnasium and met with the school's *Eine-Welt-Gruppe* — a student initiative with a long tradition, active since the late 1980s, that supports education and development projects across the Global South through fundraising, events and direct partnerships. The visit led to a concrete new collaboration: Father Nicolaus will compile a list of school supplies that are hard to find in Tanzania, which the group will work to collect and send.
+
+#### Calabria – School Visits and Fundraising
+
+In the week before Holy Week, Father Nicolaus visited six schools in Calabria, made possible through the dedication of local contact Assunta. She had personally introduced the project to each headteacher beforehand, and class representatives were brought together so Father Nicolaus could thank the children in person for their contribution to last year's clothing drive. Despite limited time — schools had already lost days to local elections — the children were wonderfully engaged. A larger event open to parents is planned for the future.
+
+Beyond organising the visits, Assunta raised a further **€500** through her personal contacts. She also donates 10% of the income she earns selling a wellness product, adding **€55** this period — a quiet but meaningful ongoing commitment.
+
+#### Medjugorje Pilgrimage
+
+Olga Novello and Father Nicolaus took part in a pilgrimage to Medjugorje, where they took the opportunity to present TEI to fellow pilgrims and distribute leaflets about the project. This raised **€420**.
+
+#### School Reports and Family Visits
+
+In January we received the school reports for all the children we support. The results are generally encouraging, though we have identified some areas where additional backup will be needed to help as many children as possible succeed. Father Salvius visited the families of the children and a number of their schools — no small undertaking, as some children live well outside the villages. All school fees for the current calendar year have now been paid.
+
+One child, despite support from both family and school, was consistently not attending classes and disengaged when present. After several attempts to understand the situation and find a way to help, it was decided — with regret — to end his support so that the funds can go to children who are able to benefit from the opportunity. Efforts will be made to connect him with local organisations who may be able to help in other ways.
+
+| Concert | Easter Bazaar | Calabria | Medjugorje | **Total** |
+|---------|---------------|----------|------------|-----------|
+| €3,127.63 | €900.00 | €555.00 | €420.00 | **€5,002.63** |
+
+#### Looking Ahead – Child Sponsorship Programme
+
+Father Salvius currently has a waiting list of 11 children who could be supported by the project. We are developing a sponsorship programme that will allow individuals or organisations to support a specific child, with the possibility of receiving updates on their progress and, where appropriate, communicating with them directly. As we move from one-off events towards this kind of regular, committed funding, we will be able to expand the project accordingly.
+
+#### A School for the Future
+
+The next step in making the project sustainable in the long term is the creation of a private, church-owned secondary school that will generate income to fund scholarships for disadvantaged students. The Bukoba Diocese has donated approximately 37 acres (15 ha) of land on a main road with access to water and electricity — an excellent foundation to build on. One donor has already contributed **€1,000** towards the construction. This is still in its early stages, but it is an exciting development that we will keep you informed about.
+
+{% include gallery.liquid id='april_2026_update_gallery' images=site.data.april_2026_update %}
+
 ### November 2025
 ### Advent Concert in St. Margaret’s Parish Church - A Heartfelt Success for the Tumaini Education Initiative
 
