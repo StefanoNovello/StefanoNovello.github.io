@@ -69,7 +69,7 @@ Es ist auch möglich, ein bestimmtes Kind aus der Ferne zu unterstützen.
 Nach Abzug aller Kosten erbrachte das Konzert im November 2025 3.127,63 € für das Projekt — ein schönes Ergebnis, das allen zu verdanken ist, die mitgewirkt, organisiert und teilgenommen haben.
 
 #### Ostermarkt – Carl-Orff-Grundschule Erding
-Am 17. März 2026 gestalteten Kinder aller Klassen gemeinsam mit ihren Lehrerinnen und Lehrern österliche Objekte, die Drittklässler anschließend an Eltern verkauften. Der Markt brachte 900 € ein, die Pater Nikolaus bei seinem Besuch am 16. April 2026 persönlich übergeben wurden.
+Am 17. März 2026 gestalteten Kinder aller Klassen gemeinsam mit ihren Lehrerinnen und Lehrern österliche Objekte, die Drittklässler anschließend an Eltern verkauften. Der Markt brachte 900 € ein, die Pater Nikolaus bei seinem Besuch am 13. April 2026 persönlich übergeben wurden.
 
 #### Franz-Marc-Gymnasium – Eine-Welt-Gruppe, Markt Schwaben
 Pater Nikolaus besuchte das Franz-Marc-Gymnasium und traf sich mit der schulischen Eine-Welt-Gruppe — einer seit Ende der 1980er Jahre aktiven Schülerinitiative, die durch Spendenaktionen, Veranstaltungen und direkte Partnerschaften Bildungs- und Entwicklungsprojekte im Globalen Süden unterstützt. Der Besuch mündete in eine konkrete Zusammenarbeit: Pater Nikolaus stellt eine Liste von Schulmaterialien zusammen, die in Tansania schwer zu beschaffen sind, und die EWG wird sich darum bemühen, diese zu sammeln und zu schicken.
@@ -100,7 +100,7 @@ Der nächste Schritt zur langfristigen Nachhaltigkeit des Projekts ist die Grün
 
 {% include gallery.liquid id='april_2026_update_gallery' images=site.data.april_2026_update %}
 
-### Novemebr 2025
+### November 2025
 ### Adventskonzert in der Pfarrkirche St. Margaret – Großer Erfolg für die Tumaini Education Initiative
 
 Am Sonntag, den 30. November 2025, fand in der Pfarrkirche St. Margaret in Markt Schwaben ein  Adventskonzert statt. Während der Veranstaltung stellte **Pater Nicolaus** die *Tumaini Education Initiative* in einer sehr persönlichen und berührenden Ansprache vor und gab dem Publikum einen bewegenden Einblick in die Ziele und die Bedeutung des Projekts.

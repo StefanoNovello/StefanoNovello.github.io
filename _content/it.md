@@ -69,7 +69,7 @@ Dopo le spese, il concerto di novembre 2025 ha fruttato **€ 3.127,63** per il 
 
 #### Mercatino di Pasqua – Scuola Elementare Carl Orff, Erding
 
-Il 17 marzo 2026 i bambini di tutte le classi hanno realizzato oggetti a tema pasquale insieme ai loro insegnanti, e gli alunni di terza li hanno poi venduti ai genitori a scuola. L'evento ha raccolto **€ 900**, consegnati di persona a Padre Nicolaus durante la sua visita il 16 aprile 2026.
+Il 17 marzo 2026 i bambini di tutte le classi hanno realizzato oggetti a tema pasquale insieme ai loro insegnanti, e gli alunni di terza li hanno poi venduti ai genitori a scuola. L'evento ha raccolto **€ 900**, consegnati di persona a Padre Nicolaus durante la sua visita il 13 aprile 2026.
 
 #### Franz Marc Gymnasium – Eine-Welt-Gruppe, Markt Schwaben
 

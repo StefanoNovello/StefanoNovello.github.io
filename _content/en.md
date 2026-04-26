@@ -67,7 +67,7 @@ After costs, the November 2025 concert raised **€3,127.63** for the project �
 
 #### Easter Bazaar – Carl Orff Primary School, Erding
 
-On 17 March 2026, children from all classes made Easter-themed objects with the help of their teachers, and third-form pupils sold them to parents at school. The event raised **€900**, which was handed personally to Father Nicolaus when he visited on 16 April 2026.
+On 17 March 2026, children from all classes made Easter-themed objects with the help of their teachers, and third-form pupils sold them to parents at school. The event raised **€900**, which was handed personally to Father Nicolaus when he visited on 13 April 2026.
 
 #### Franz Marc Gymnasium – Eine-Welt-Gruppe, Markt Schwaben
 
