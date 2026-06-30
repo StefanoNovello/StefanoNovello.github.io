@@ -44,7 +44,7 @@ With just €300 — less than €1 a day — you can cover a child’s educatio
 {: .bank-details}
 #### Donation Account
 
-**Kath. Kirchenstiftung St. Margaret Markt Schwaben**  
+**Pfarrkirchenstiftung St. Margaret Markt Schwaben**  
 IBAN: DE87 7509 0300 0002 1409 00  
 BIC: GENODEF1M05  
 **Reference:** TUMAINI
@@ -90,8 +90,8 @@ In January we received the school reports for all the children we support. The r
 One child, despite support from both family and school, was consistently not attending classes and disengaged when present. After several attempts to understand the situation and find a way to help, it was decided — with regret — to end his support so that the funds can go to children who are able to benefit from the opportunity. Efforts will be made to connect him with local organisations who may be able to help in other ways.
 
 | Concert | Easter Bazaar | Calabria | Medjugorje | **Total** |
-|---------|---------------|----------|------------|-----------|
-| €3,127.63 | €900.00 | €555.00 | €420.00 | **€5,002.63** |
+|------------|----------|-----------|----------|----------------|
+| € 3.127,63 | € 900,00 | € 1467,00 | € 420,00 | **€ 5.914,63** |
 
 #### Looking Ahead – Child Sponsorship Programme
 

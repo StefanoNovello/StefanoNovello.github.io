@@ -45,7 +45,7 @@ puoi coprire i costi dell'istruzione di un bambino per un anno.
 {: .bank-details}
 #### Conto per donazioni
 
-**Kath. Kirchenstiftung St. Margaret Markt Schwaben**  
+**Pfarrkirchenstiftung St. Margaret Markt Schwaben**  
 IBAN: DE87 7509 0300 0002 1409 00  
 BIC: GENODEF1M05  
 **Causale:** TUMAINI
@@ -77,7 +77,7 @@ Padre Nicolaus ha visitato il Franz Marc Gymnasium e incontrato l'*Eine-Welt-Gru
 
 #### Calabria – Visite Scolastiche e Raccolta Fondi
 
-Nella settimana precedente la Settimana Santa, Padre Nicolaus ha visitato sei scuole in Calabria, grazie all'impegno personale della referente locale Assunta. Aveva già presentato il progetto alle dirigenti scolastiche, e i rappresentanti di ogni classe sono stati riuniti affinché Padre Nicolaus potesse ringraziarli di persona per il contributo alla raccolta di vestiti dell'anno scorso. Nonostante il tempo scarso — le scuole avevano già perso giorni per le elezioni — i bambini hanno partecipato con entusiasmo. È previsto un evento più ampio aperto ai genitori.
+Nella settimana precedente la Settimana Santa, Padre Nicolaus ha visitato sei scuole in Calabria, grazie all'impegno personale della referente locale Assunta. Aveva già presentato il progetto alle dirigenti scolastiche, e i rappresentanti di ogni classe sono stati riuniti affinché Padre Nicolaus potesse ringraziarli di persona per il contributo alla raccolta di vestiti dell'anno scorso. Nonostante il tempo scarso — le scuole avevano già perso giorni per le elezioni — i bambini hanno partecipato con entusiasmo. È previsto un evento più ampio aperto ai genitori. Durante queste visite le scuol ehanno donato **€ 912**.
 
 Assunta ha inoltre raccolto **€ 500** attraverso i suoi contatti personali, e dona il 10% del ricavato dalla vendita di un prodotto benessere — **€ 55** in questo periodo — un contributo discreto ma continuo.
 
@@ -92,8 +92,8 @@ A gennaio abbiamo ricevuto le pagelle di tutti i bambini che sosteniamo. I risul
 Un bambino, nonostante il sostegno della famiglia e della scuola, non frequentava le lezioni con regolarità e mostrava scarso coinvolgimento anche quando presente. Dopo diversi tentativi di capire la situazione e offrire aiuto, si è deciso — a malincuore — di sospendere il suo sostegno, affinché i fondi possano andare a chi è in grado di beneficiarne. Si cercherà di metterlo in contatto con organizzazioni locali che possano aiutarlo in altro modo.
 
 | Concerto | Mercatino | Calabria | Medjugorje | **Totale** |
-|----------|-----------|----------|------------|------------|
-| € 3.127,63 | € 900,00 | € 555,00 | € 420,00 | **€ 5.002,63** |
+|------------|----------|-----------|----------|----------------|
+| € 3.127,63 | € 900,00 | € 1467,00 | € 420,00 | **€ 5.914,63** |
 
 #### Guardando Avanti – Programma di Adozione a Distanza
 

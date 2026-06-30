@@ -46,7 +46,7 @@ Mit nur 300 €, also weniger als 1 € pro Tag, kannst du die Ausbildung eines 
 {: .bank-details}
 #### Spendenkonto
 
-**Kath. Kirchenstiftung St. Margaret Markt Schwaben**  
+**Pfarrkirchenstiftung St. Margaret Markt Schwaben**  
 IBAN: DE87 7509 0300 0002 1409 00  
 BIC: GENODEF1M05  
 **Verwendungszweck:** TUMAINI
@@ -89,8 +89,8 @@ Ein Kind hat trotz Unterstützung durch Familie und Schule den Unterricht regelm
 
 
 | Konzert | Ostermarkt | Kalabrien | Medjugorje | **Gesamt** |
-|---------|------------|-----------|------------|------------|
-| 3.127,63 € | 900,00 € | 555,00 € | 420,00 € | **5.002,63 €** |
+|------------|----------|-----------|----------|----------------|
+| € 3.127,63 | € 900,00 | € 1467,00 | € 420,00 | **€ 5.914,63** |
 
 #### Ausblick – Patenschaftsprogramm für Kinder
 Pater Salvius hat derzeit eine Warteliste von 11 Kindern, die vom Projekt unterstützt werden könnten. Wir entwickeln ein Patenschaftsprogramm, das es Einzelpersonen oder Organisationen ermöglicht, ein bestimmtes Kind zu unterstützen — mit der Möglichkeit, Berichte über seinen Schulfortschritt zu erhalten und, wo es sich anbietet, direkt mit dem Kind in Kontakt zu treten. Mit dem Übergang von Einzelveranstaltungen zu dieser Art regelmäßiger Förderung werden wir das Projekt entsprechend ausbauen können.
