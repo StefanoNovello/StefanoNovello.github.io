@@ -3,6 +3,8 @@ collections:
     output: true
   modals:
     output: true
+  updates:
+    output: false
 
 markdown: kramdown
 kramdown:

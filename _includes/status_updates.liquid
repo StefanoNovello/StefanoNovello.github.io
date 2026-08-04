@@ -1,0 +1,13 @@
+{% assign updates = site.updates | where: "language", include.language | sort: "sort_order" %}
+{% for update in updates %}
+<div class="status-update is-collapsed" id="{{ update.status_id }}">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="{{ update.status_id }}-panel">{{ update.title }}</button>
+<div class="status-panel" id="{{ update.status_id }}-panel" hidden>
+{{ update.content | markdownify }}
+{% if update.gallery_data and update.gallery_id %}
+{% assign gallery_images = site.data[update.gallery_data] %}
+{% include gallery.liquid id=update.gallery_id images=gallery_images %}
+{% endif %}
+</div>
+</div>
+{% endfor %}
