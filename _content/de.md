@@ -61,6 +61,14 @@ Es ist auch möglich, ein bestimmtes Kind aus der Ferne zu unterstützen.
 [Kontaktiere uns](#contact-de) – wir freuen uns sehr, dich in unserem Kreis von Unterstützerinnen und Unterstützern willkommen zu heißen.
 
 ## Status {#status-de}
+
+### Aktueller Überblick
+
+* **Derzeit unterstützen wir 10 Kinder**, davon 6 im Rahmen eines Patenschaftsprogramms.
+* **Weitere 11 Kinder stehen auf einer Warteliste.**
+* **Alle Schulgebühren sind bezahlt** und Schulmaterialien wurden bereitgestellt; wir erhalten positive Rückmeldungen zum Lernfortschritt. Die Begleitung läuft weiter.
+* **September:** erster Besuch in Missenyi, um mehr zu erfahren und die nächsten Schritte zu planen.
+
 {% include status_updates.liquid language=page.language %}
 
 ## Kontakt {#contact-de}

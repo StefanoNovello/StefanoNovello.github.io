@@ -60,6 +60,14 @@ Diventa un padrino o madrina! Decidi tu per quanto tempo e con quale contributo 
 [Contattaci](#contact-it), saremo contentissimi di accoglierti nella nostra cerchia di sostenitori.
 
 ## Status {#status-it}
+
+### Panoramica aggiornata
+
+* **Attualmente sosteniamo 10 bambini**, di cui 6 tramite un programma di sostegno a distanza.
+* **Altri 11 bambini sono in lista d'attesa.**
+* **Tutte le rette scolastiche sono pagate** e il materiale scolastico è stato fornito; riceviamo riscontri positivi sui progressi scolastici. Il percorso di mentoring continua.
+* **Settembre:** prima visita a Missenyi per conoscere meglio la situazione e pianificare i prossimi passi.
+
 {% include status_updates.liquid language=page.language %}
 
 ## Contatto {#contact-it}

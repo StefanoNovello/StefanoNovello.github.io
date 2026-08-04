@@ -59,6 +59,14 @@ It’s also possible to sponsor a specific child at a distance.
 [Contact us](#contact-en) — we would be delighted to welcome you into our circle of supporters.
 
 ## Status {#status-en}
+
+### Latest update at a glance
+
+* **Currently we support 10 children**, 6 of whom are part of a sponsorship programme.
+* **A further 11 children are on a waiting list.**
+* **All school fees are paid** and school materials have been provided; we are receiving positive reports on school progress. Mentoring is ongoing.
+* **September:** first visit to Missenyi to learn more and plan the next steps.
+
 {% include status_updates.liquid language=page.language %}
 
 ## Contact Us {#contact-en}

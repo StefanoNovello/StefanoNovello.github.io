@@ -1,5 +1,10 @@
-{% assign updates = site.updates | where: "language", include.language | sort: "sort_order" %}
+{% assign updates = site.updates
+  | where: "language", include.language
+  | sort: "status_id"
+  | reverse %}
 {% for update in updates %}
+{% assign ext = update.path | split: '.' | last %}
+{% if ext == 'md' %}
 <div class="status-update is-collapsed" id="{{ update.status_id }}">
 <button class="status-toggle" type="button" aria-expanded="false" aria-controls="{{ update.status_id }}-panel">{{ update.title }}</button>
 <div class="status-panel" id="{{ update.status_id }}-panel" hidden>
@@ -10,4 +15,5 @@
 {% endif %}
 </div>
 </div>
+{% endif %}
 {% endfor %}
