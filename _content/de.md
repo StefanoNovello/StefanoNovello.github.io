@@ -62,8 +62,10 @@ Es ist auch möglich, ein bestimmtes Kind aus der Ferne zu unterstützen.
 
 ## Status {#status-de}
 
-### April 2026
-### Nachhaltigkeit aufbauen: Mehr Kinder, mehr Unterstützer, eine Schule für die Zukunft
+<div class="status-update is-collapsed" id="status-de-2026-04">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-de-2026-04-panel">April 2026 — Nachhaltigkeit aufbauen: Mehr Kinder, mehr Unterstützer, eine Schule für die Zukunft</button>
+<div class="status-panel" id="status-de-2026-04-panel" hidden>
+{% capture status_de_2026_04 %}
 
 #### Konzert – November 2025
 Nach Abzug aller Kosten erbrachte das Konzert im November 2025 3.127,63 € für das Projekt — ein schönes Ergebnis, das allen zu verdanken ist, die mitgewirkt, organisiert und teilgenommen haben.
@@ -98,10 +100,18 @@ Pater Salvius hat derzeit eine Warteliste von 11 Kindern, die vom Projekt unters
 ##### Eine Schule für die Zukunft
 Der nächste Schritt zur langfristigen Nachhaltigkeit des Projekts ist die Gründung einer privaten, kircheneigenen weiterführenden Schule, die durch ihre Einnahmen Stipendien für benachteiligte Schülerinnen und Schüler finanzieren soll. Das Bistum Bukoba hat hierfür rund 37 Acres (15 ha) Land an einer Hauptstraße mit Anschluss an Wasser und Strom zur Verfügung gestellt — eine sehr gute Grundlage. Ein erster Spender hat bereits 1.000 € für den Bau beigesteuert. Das Vorhaben steckt noch in den Anfängen, aber es ist eine vielversprechende Entwicklung, über die wir Sie weiter auf dem Laufenden halten werden.
 
+{% endcapture %}
+{{ status_de_2026_04 | markdownify }}
+
 {% include gallery.liquid id='april_2026_update_gallery' images=site.data.april_2026_update %}
 
-### November 2025
-### Adventskonzert in der Pfarrkirche St. Margaret – Großer Erfolg für die Tumaini Education Initiative
+</div>
+</div>
+
+<div class="status-update is-collapsed" id="status-de-2025-11">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-de-2025-11-panel">November 2025 — Adventskonzert in der Pfarrkirche St. Margaret – Großer Erfolg für die Tumaini Education Initiative</button>
+<div class="status-panel" id="status-de-2025-11-panel" hidden>
+{% capture status_de_2025_11 %}
 
 Am Sonntag, den 30. November 2025, fand in der Pfarrkirche St. Margaret in Markt Schwaben ein  Adventskonzert statt. Während der Veranstaltung stellte **Pater Nicolaus** die *Tumaini Education Initiative* in einer sehr persönlichen und berührenden Ansprache vor und gab dem Publikum einen bewegenden Einblick in die Ziele und die Bedeutung des Projekts.
 
@@ -111,10 +121,18 @@ Dank der Großzügigkeit aller Anwesenden konnten **über 3.300 EUR** an Spenden
 
 **Wir danken allen herzlich, die zu diesem großartigen Erfolg beigetragen haben.**
 
+{% endcapture %}
+{{ status_de_2025_11 | markdownify }}
+
 {% include gallery.liquid id='adventskonzert-gallery' images=site.data.advent_concert %}
 
-### Oktober 2025
-### Zweite Spendenrunde
+</div>
+</div>
+
+<div class="status-update is-collapsed" id="status-de-2025-10">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-de-2025-10-panel">Oktober 2025 — Zweite Spendenrunde</button>
+<div class="status-panel" id="status-de-2025-10-panel" hidden>
+{% capture status_de_2025_10 %}
 
 Dank einer **zweiten Spendenrunde** konnten wir die **Schulgebühren für alle Kinder bis Ende 2025** bezahlen und zusätzlich auf einige **individuelle Bedürfnisse** eingehen:
 
@@ -134,13 +152,28 @@ Wir danken allen von Herzen – **eure Unterstützung verändert Leben!**
 
 [Bericht auf Englisch](#){:.modal-link data-modal="financial-2025-11-en"}. Der Bericht wurde bearbeitet, um keine personenbezogenen Daten der geförderten Kinder zu enthalten.
 
-### März 2025
-### Erste Schritte
+{% endcapture %}
+{{ status_de_2025_10 | markdownify }}
+
+</div>
+</div>
+
+<div class="status-update is-collapsed" id="status-de-2025-03">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-de-2025-03-panel">März 2025 — Erste Schritte</button>
+<div class="status-panel" id="status-de-2025-03-panel" hidden>
+{% capture status_de_2025_03 %}
+
 Wir haben unsere erste Mittelübertragung abgeschlossen und konnten 6 Kindern helfen, die aufgrund finanzieller Schwierigkeiten ihrer Familien nicht zur Schule gehen konnten. Jedes Kind erhielt Schulmaterial, Bücher und Kleidung, und die Schulgebühren wurden bis Juni 2025 übernommen. Die Kinder besuchen nun verschiedene Schulen in der Region.
 
 Wir haben 1.000 € an Spenden gesammelt, wovon 89% direkt den Kindern zugutekamen. Der Rest wurde für Ausgaben wie Transport und Bankgebühren verwendet. [Bericht auf Englisch](#){:.modal-link data-modal="financial-2025-3-en"}
 
 Inzwischen wurden weitere bedürftige Kinder identifiziert, und wir sammeln weitere Spenden, um die derzeitigen Kinder weiter zu unterstützen und das Programm auf weitere auszuweiten.
+
+{% endcapture %}
+{{ status_de_2025_03 | markdownify }}
+
+</div>
+</div>
 
 ## Kontakt {#contact-de}
 

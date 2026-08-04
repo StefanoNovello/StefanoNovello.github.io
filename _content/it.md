@@ -60,8 +60,11 @@ Diventa un padrino o madrina! Decidi tu per quanto tempo e con quale contributo 
 [Contattaci](#contact-it), saremo contentissimi di accoglierti nella nostra cerchia di sostenitori.
 
 ## Status {#status-it}
-### Aprile 2026
-### Costruire la sostenibilità: più bambini, più sostenitori, una scuola per il futuro
+
+<div class="status-update is-collapsed" id="status-it-2026-04">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-it-2026-04-panel">Aprile 2026 — Costruire la sostenibilità: più bambini, più sostenitori, una scuola per il futuro</button>
+<div class="status-panel" id="status-it-2026-04-panel" hidden>
+{% capture status_it_2026_04 %}
 
 #### Concerto – Novembre 2025
 
@@ -103,10 +106,18 @@ Padre Salvio ha attualmente una lista d'attesa di 11 bambini che potrebbero esse
 
 Il passo successivo per rendere il progetto sostenibile nel lungo periodo è la creazione di una scuola secondaria privata di proprietà della Chiesa, i cui proventi finanzieranno borse di studio per studenti svantaggiati. La Diocesi di Bukoba ha donato circa 37 acri (15 ettari) di terreno su una strada principale, con accesso all'acqua e all'elettricità — un'ottima base di partenza. Un primo donatore ha già contribuito con **€ 1.000** per la costruzione. Il progetto è ancora nelle sue fasi iniziali, ma è uno sviluppo molto promettente sul quale vi terremo aggiornati.
 
+{% endcapture %}
+{{ status_it_2026_04 | markdownify }}
+
 {% include gallery.liquid id='april_2026_update_gallery' images=site.data.april_2026_update %}
 
-### Novembre 2025
-### Concerto Natalizio nella Chiesa Parrocchiale di Santa Margherita – Un grande successo per la Tumaini Education Initiative
+</div>
+</div>
+
+<div class="status-update is-collapsed" id="status-it-2025-11">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-it-2025-11-panel">Novembre 2025 — Concerto Natalizio nella Chiesa Parrocchiale di Santa Margherita – Un grande successo per la Tumaini Education Initiative</button>
+<div class="status-panel" id="status-it-2025-11-panel" hidden>
+{% capture status_it_2025_11 %}
 
 Domenica 30 novembre 2025 si è tenuto un concerto natalizio nella Chiesa Parrocchiale di Santa Margherita a Markt Schwaben. Durante l’evento, **Padre Nicolaus** ha presentato la *Tumaini Education Initiative* con un discorso molto personale ed emozionante, offrendo al pubblico una visione toccante della missione e dell’impatto del progetto.
 
@@ -116,10 +127,18 @@ Grazie alla generosità dei partecipanti, sono stati raccolti **oltre 3.300 EUR*
 
 **Ringraziamo di cuore tutti coloro che hanno contribuito a questo splendido risultato.**
 
+{% endcapture %}
+{{ status_it_2025_11 | markdownify }}
+
 {% include gallery.liquid id='adventskonzert-gallery' images=site.data.advent_concert %}
 
-### Ottobre 2025
-### Un secondo giro di donazioni
+</div>
+</div>
+
+<div class="status-update is-collapsed" id="status-it-2025-10">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-it-2025-10-panel">Ottobre 2025 — Un secondo giro di donazioni</button>
+<div class="status-panel" id="status-it-2025-10-panel" hidden>
+{% capture status_it_2025_10 %}
 
 Grazie a un **secondo giro di generose donazioni**, siamo riusciti a coprire le **tasse scolastiche di tutti i bambini fino alla fine del 2025** e anche a rispondere a **diverse necessità individuali**:
 
@@ -139,14 +158,28 @@ Siamo profondamente grati a tutti coloro che contribuiscono — **il vostro sost
 
 [Rapporto in inglese](#){:.modal-link data-modal="financial-2025-11-en"}. Il rapporto è stato redatto in modo da non includere i dati personali dei bambini assistiti.
 
-### Marzo 2025
-### Primi passi
+{% endcapture %}
+{{ status_it_2025_10 | markdownify }}
+
+</div>
+</div>
+
+<div class="status-update is-collapsed" id="status-it-2025-03">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-it-2025-03-panel">Marzo 2025 — Primi passi</button>
+<div class="status-panel" id="status-it-2025-03-panel" hidden>
+{% capture status_it_2025_03 %}
 
 Abbiamo completato il nostro primo trasferimento di fondi e siamo riusciti a identificare e aiutare 6 bambini che non potevano frequentare la scuola a causa delle difficoltà economiche delle loro famiglie. Ogni bambino ha ricevuto materiale scolastico, libri e vestiti, e le tasse scolastiche sono state pagate fino a giugno 2025. I bambini ora frequentano varie scuole della zona.
 
 Abbiamo raccolto 1.000 € in donazioni, di cui l'89% è stato speso direttamente per i bambini, mentre il resto è stato utilizzato per spese come trasporti e commissioni bancarie. [Rapporto in inglese](#){:.modal-link data-modal="financial-2025-3-en"}
 
 Nel frattempo, sono stati identificati altri bambini bisognosi, e stiamo raccogliendo ulteriori donazioni per continuare ad aiutare quelli attuali ed espandere il programma ad altri.
+
+{% endcapture %}
+{{ status_it_2025_03 | markdownify }}
+
+</div>
+</div>
 
 ## Contatto {#contact-it}
 

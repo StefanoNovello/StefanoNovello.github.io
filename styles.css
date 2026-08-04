@@ -233,6 +233,49 @@ tr:last-child td {
     border-bottom: 2px solid var(--primary-color);
     font-weight: bold;
 }
+
+/* Status section helpers */
+.status-update {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    margin: 1.25rem 0;
+    padding: 0.75rem 1rem;
+}
+
+.status-toggle {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    text-align: left;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 0.35rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-toggle::after {
+    content: '▾';
+    font-size: 1rem;
+    margin-left: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.status-update.is-collapsed .status-toggle::after {
+    transform: rotate(-90deg);
+}
+
+.status-toggle:hover {
+    color: var(--accent-color);
+}
+
+.status-panel {
+    margin-top: 1rem;
+}
 /*
 li::before {
     content: '•';

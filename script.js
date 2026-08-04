@@ -34,6 +34,26 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     initGallery();
 
+    function initStatusAccordions() {
+        const toggles = document.querySelectorAll('.status-toggle');
+        if (toggles.length === 0) return;
+
+        toggles.forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                const card = this.closest('.status-update');
+                const panelId = this.getAttribute('aria-controls');
+                const panel = panelId ? document.getElementById(panelId) : null;
+                if (!card || !panel) return;
+
+                const isCollapsed = card.classList.toggle('is-collapsed');
+                const isExpanded = !isCollapsed;
+                this.setAttribute('aria-expanded', String(isExpanded));
+                panel.hidden = !isExpanded;
+            });
+        });
+    }
+    initStatusAccordions();
+
     // Update scroll padding for smooth anchor navigation
     function updateScrollPadding() {
         const nav = document.querySelector('nav');

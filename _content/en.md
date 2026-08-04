@@ -59,8 +59,13 @@ It’s also possible to sponsor a specific child at a distance.
 [Contact us](#contact-en) — we would be delighted to welcome you into our circle of supporters.
 
 ## Status {#status-en}
-### April 2026
-### Building Sustainability: More Children, More Supporters, a School for the Future
+
+
+<div class="status-update is-collapsed" id="status-en-2026-04">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-en-2026-04-panel">April 2026 — Building Sustainability: More Children, More Supporters, a School for the Future</button>
+<div class="status-panel" id="status-en-2026-04-panel" hidden>
+{% capture status_en_2026_04 %}
+
 #### Concert – November 2025
 
 After costs, the November 2025 concert raised **€3,127.63** for the project — a wonderful result made possible by everyone who performed, organised and attended.
@@ -101,10 +106,18 @@ Father Salvius currently has a waiting list of 11 children who could be supporte
 
 The next step in making the project sustainable in the long term is the creation of a private, church-owned secondary school that will generate income to fund scholarships for disadvantaged students. The Bukoba Diocese has donated approximately 37 acres (15 ha) of land on a main road with access to water and electricity — an excellent foundation to build on. One donor has already contributed **€1,000** towards the construction. This is still in its early stages, but it is an exciting development that we will keep you informed about.
 
+{% endcapture %}
+{{ status_en_2026_04 | markdownify }}
 {% include gallery.liquid id='april_2026_update_gallery' images=site.data.april_2026_update %}
 
-### November 2025
-### Advent Concert in St. Margaret’s Parish Church - A Heartfelt Success for the Tumaini Education Initiative
+</div>
+
+</div>
+
+<div class="status-update is-collapsed" id="status-en-2025-11">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-en-2025-11-panel">November 2025 — Advent Concert in St. Margaret’s Parish Church</button>
+<div class="status-panel" id="status-en-2025-11-panel" hidden>
+{% capture status_en_2025_11 %}
 
 On Sunday, 30 November 2025, a special advent concert took place in the Parish Church of St. Margaret in Markt Schwaben. During the event, **Father Nicolaus** introduced the *Tumaini Education Initiative* with a deeply personal and touching speech, giving the audience an inspiring insight into the project’s mission and impact.
 
@@ -114,38 +127,59 @@ Thanks to the generosity of all attendees, we collected **over 3,300 EUR** in do
 
 **We extend our heartfelt thanks to everyone who made this evening such a success.**
 
+{% endcapture %}
+{{ status_en_2025_11 | markdownify }}
 {% include gallery.liquid id='adventskonzert-gallery' images=site.data.advent_concert %}
 
-### October 2025
+</div>
 
-### Project Update – Autumn 2025
+</div>
+
+<div class="status-update is-collapsed" id="status-en-2025-10">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-en-2025-10-panel">October 2025 — Project Update (Autumn 2025)</button>
+<div class="status-panel" id="status-en-2025-10-panel" hidden>
+{% capture status_en_2025_10 %}
 
 Thanks to a **second round of generous donations**, we were able to cover the **school fees for all children for the remainder of 2025** and also respond to several **individual needs**:
 
-- A mattress for a child who had been sleeping on the bare floor and often felt tired at school.  
-- A bicycle for another child who had a very long walk to school every day.  
-- Boarding accommodation for a child facing a very difficult family situation.  
+- A mattress for a child who had been sleeping on the bare floor and often felt tired at school.
+- A bicycle for another child who had a very long walk to school every day.
+- Boarding accommodation for a child facing a very difficult family situation.
 
 All **six children we support** are now able to attend school regularly and are making good progress — a wonderful success for everyone involved!
 
-In addition, our **network of supporters has grown**.  
-In a separate effort in **Calabria, Italy**, a clothes collection was organized. Pilgrims traveling to Rome kindly carried the donations in their luggage to Tanzania — resulting in **over 120 kg of second-hand clothes** being distributed in a big weekend action that was warmly received. A financial donation also accompanied this initiative.  
+In addition, our **network of supporters has grown**.
+In a separate effort in **Calabria, Italy**, a clothes collection was organized. Pilgrims traveling to Rome kindly carried the donations in their luggage to Tanzania — resulting in **over 120 kg of second-hand clothes** being distributed in a big weekend action that was warmly received. A financial donation also accompanied this initiative.
 
-We also held **workshops in two primary schools near Markt Schwaben**, where children learned what school life is like in Tanzania. We hope this will inspire further fundraising activities.  
+We also held **workshops in two primary schools near Markt Schwaben**, where children learned what school life is like in Tanzania. We hope this will inspire further fundraising activities.
 
-Currently, we are **preparing for the Advent Concert** at *St. Margaret, Markt Schwaben* on **Sunday, November 30, 2025, at 6 p.m.**, where donations for the Tumaini Education Initiative will once again be collected.  
+Currently, we are **preparing for the Advent Concert** at *St. Margaret, Markt Schwaben* on **Sunday, November 30, 2025, at 6 p.m.**, where donations for the Tumaini Education Initiative will once again be collected.
 We are deeply grateful to everyone who contributes — your support truly changes lives!
 
 [See Report](#){:.modal-link data-modal="financial-2025-11-en"}. The report has been redacted so as not to include personal data of the assisted children.
+{% endcapture %}
+{{ status_en_2025_10 | markdownify }}
 
-### March 2025
-### The first doantions arrive
+</div>
 
-We have completed our first transfer of funds, and have been able identify and help 6 children who were not going to school because their families could not afford it. Each child has received school equipment, books, and clothes as well as having their school fees payed up to June 2025. The children are now going to various schools in the area.
+</div>
+
+<div class="status-update is-collapsed" id="status-en-2025-03">
+<button class="status-toggle" type="button" aria-expanded="false" aria-controls="status-en-2025-03-panel">March 2025 — The first donations arrive</button>
+<div class="status-panel" id="status-en-2025-03-panel" hidden>
+{% capture status_en_2025_03 %}
+
+We have completed our first transfer of funds, and have been able to identify and help 6 children who were not going to school because their families could not afford it. Each child has received school equipment, books, and clothes as well as having their school fees paid up to June 2025. The children are now going to various schools in the area.
 
 We gathered 1000€ in donations of which 89% were spent directly for the children, the rest was used for expenses including transport and banking fees. [See Report](#){:.modal-link data-modal="financial-2025-3-en"}
 
 In the meantime more children have been identified, and we are in the process of collecting more donations to continue helping the current children and to expand the program to others.
+{% endcapture %}
+{{ status_en_2025_03 | markdownify }}
+
+</div>
+
+</div>
 
 ## Contact Us {#contact-en}
 

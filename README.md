@@ -1,20 +1,39 @@
 # StefanoNovello.tumaini-initative
 
-This is the repository for the Tumaini Education Initiave website
+This is the repository for the Tumaini Education Initiative website.
 
-Here is the command  to get bing, duckduckgo etc to index the site - run it whenever you update the site.
-curl  https://bing.com/indexnow?url=https://tumaini-initiative.de/&key=04ef8c94aec549b08004b2c0399d6315&keyLocation=https://tumaini-initiative.de/04ef8c94aec549b08004b2c0399d6315.txt
+## IndexNow refresh
 
-The site makes use of the jekyll build system that github provides. This converts the markdown .md files into .html and places the generated site in the _site directory.
+Run this whenever you update the site:
 
-To test the files locally you need to replicate that process. You can use MS VS code, the .vscode directory  contains the commands for building the site, so you can test by using Run/Start Debugging inside VSCode
+curl https://bing.com/indexnow?url=https://tumaini-initiative.de/&key=04ef8c94aec549b08004b2c0399d6315&keyLocation=https://tumaini-initiative.de/04ef8c94aec549b08004b2c0399d6315.txt
 
-As a prerequisite you must install jekyll. To do this first install ruby (the language it is written in) and then run
+## Local development
 
-gem install bundler
+The site uses Jekyll (GitHub Pages style) to convert markdown content into static HTML in `_site/`.
 
-which installs the ruby dependancy manager and then
- 
-bundle install
+### Requirements
 
-which installs all the pacakges mentioned in Gemfile
+- Ruby 3.0+ (recommended: version from [./.ruby-version](.ruby-version))
+- Bundler
+- make
+
+### Quick start
+
+1. Install Ruby (recommended via `rbenv` or `mise`) and ensure `ruby -v` is 3.0+.
+2. Install bundler: `gem install bundler`
+3. Install project gems: `make setup`
+4. Run local server: `make serve`
+5. Open `http://localhost:4000`
+
+Useful commands:
+
+- `make doctor` – check local toolchain
+- `make build` – build site once
+- `make clean` – remove generated output and local gem cache
+
+## VS Code
+
+You can also run the existing VS Code task/launch configuration from `.vscode/`.
+
+If you see a Java runtime warning in the terminal, it is usually from your shell startup config on that machine and not required by this Jekyll project.
